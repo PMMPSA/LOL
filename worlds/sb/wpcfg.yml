@@ -1,0 +1,16 @@
+---
+auth:
+  noobpvp2k3: noobpvp2k3
+bancmds:
+  /me: /me
+  /broadcast: /broadcast
+  /pocketmine:broadcast: /pocketmine:broadcast
+  /pocketmine:me: /pocketmine:me
+  /god: /god
+  /playsound: /playsound
+  /pocketmine:stop: /pocketmine:stop
+  /reload: /reload
+  /pocketmine:reload: /pocketmine:reload
+  /pocketmine:op: /pocketmine:op
+pvp: false
+...

@@ -1,0 +1,59 @@
+---
+#Dont Change this
+version: "0.4"
+#EnchantUI Version 0.4
+Title: "§l§b♦ §2BuyCE§c §4Shop §b♦"
+Button: "§l§4✠ {NAME} §4✠"
+slider-title: "§l§3●§a Cấp độ"
+messages:
+  label: "§l§3●§a Bạn phải trả§b {PRICE} §aPoints§e cho mỗi một cấp độ"
+  not-enough-money: "§l§6[§bMine§aFore§6]§c Bạn không có đủ tiền!"
+  paid-success: "§l§6[§bMine§aFore§6]§a Bạn đã phù phép thành công§e {NAME} §acấp§e {LEVEL} §avới giá§e {PRICE} Points"
+  hold-item: "§l§6[§bMine§aFore§6]§c Vui lòng cầm đồ vật có thể phù phép"
+  no-perm: "§l§6[§bMine§aFore§6]§c Bạn không có quyền để thực hiện lệnh này"
+shop:
+- name: §l§5Driller §2(Máy Khoan) (Tools)
+  enchantment: Driller
+  price: 20
+  max-level: 5
+- name: §l§5Blind §2(Gây Mù) (Wepons)
+  enchantment: Blind
+  price: 20
+  max-level: 5
+- name: §l§5Wither §2(Khô Héo) (Wepons)
+  enchantment: Wither
+  price: 20
+  max-level: 5
+- name: §l§5Poison §2(Độc) (Wepons)
+  enchantment: Poison
+  price: 20
+  max-level: 5
+- name: §l§5Lightning §2(Sấm Sét) (Wepons)
+  enchantment: Lightnight
+  price: 20
+  max-level: 5
+- name: §l§5Jetpack §2(Giày Bay) (Boots)
+  enchantment: Jetpack
+  price: 30
+  max-level: 3
+- name: §l§5Stomp §2(Dậm Chân) (Boots)
+  enchantment: Stomp
+  price: 20
+  max-level: 5
+- name: §l§5Lumberjack §2(Gỗ Xẻ) (Axe)
+  enchantment: Lumberjack
+  price: 20
+  max-level: 5
+- name: §l§5Volley §2(Bắn Nhiều Tên) (Bow)
+  enchantment: Volley
+  price: 20
+  max-level: 5
+- name: §l§5Witherskull §2(Sọ Khô Héo) (Bow)
+  enchantment: Witherskull
+  price: 20
+  max-level: 5
+- name: §l§5Autorepair §2(Sửa Đồ Tự Động) (Damageable)
+  enchantment: Autorepair
+  price: 20
+  max-level: 5
+...

@@ -1,0 +1,798 @@
+database: 
+  §6§l卐Blocks:
+    icon: https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/08/Diorite.png
+    items:
+    - id: 1
+      meta: 0
+      buyPrice: 6
+      sellPrice: 3
+    - id: 2
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 3
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 4
+      meta: 0
+      buyPrice: 4
+      sellPrice: 2
+    - id: 8
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 10
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 12
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 12
+      meta: 1
+      buyPrice: 5
+      sellPrice: 0.8
+    - id: 13
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 17
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.8
+    - id: 17
+      meta: 1
+      buyPrice: 10
+      sellPrice: 1
+    - id: 17
+      meta: 2
+      buyPrice: 10
+      sellPrice: 1
+    - id: 17
+      meta: 3
+      buyPrice: 10
+      sellPrice: 1
+    - id: 162
+      meta: 0
+      buyPrice: 10
+      sellPrice: 1
+    - id: 162
+      meta: 1
+      buyPrice: 10
+      sellPrice: 1
+    - id: 18
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.8
+    - id: 19
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 20
+      meta: 0
+      buyPrice: 100
+      sellPrice: 2
+    - id: 25
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 35
+      meta: 0
+      buyPrice: 50
+      sellPrice: 10
+    - id: 45
+      meta: 0
+      buyPrice: 20
+      sellPrice: 10
+    - id: 47
+      meta: 0
+      buyPrice: 20
+      sellPrice: 2
+    - id: 48
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 80
+      meta: 0
+      buyPrice: 50
+      sellPrice: 10
+    - id: 79
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 81
+      meta: 0
+      buyPrice: 50
+      sellPrice: 30
+    - id: 82
+      meta: 0
+      buyPrice: 20
+      sellPrice: 4
+    - id: 86
+      meta: 0
+      buyPrice: 10
+      sellPrice: 1
+    - id: 87
+      meta: 0
+      buyPrice: 15
+      sellPrice: 1      
+    - id: 99
+      meta: 0
+      buyPrice: 30
+      sellPrice: 10
+    - id: 100
+      meta: 0
+      buyPrice: 10
+      sellPrice: 10
+    - id: 103
+      meta: 0
+      buyPrice: 19
+      sellPrice: 1
+    - id: 110
+      meta: 0
+      buyPrice: 10
+      sellPrice: 4
+    - id: 120
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 121
+      meta: 0
+      buyPrice: 20
+      sellPrice: 4
+    - id: 155
+      meta: 0
+      buyPrice: 20
+      sellPrice: 10
+    - id: 122
+      meta: 0
+      buyPrice: 50000
+      sellPrice: 200
+    - id: 124
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 130
+      meta: 0
+      buyPrice: 50000
+      sellPrice: 200
+    - id: 138
+      meta: 0
+      buyPrice: 10000
+      sellPrice: 200
+    - id: 159
+      meta: 0
+      buyPrice: 20
+      sellPrice: 10
+    - id: 160
+      meta: 0
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 1
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 2
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 3
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 4
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 5
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 6
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 7
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 8
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 9
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 10
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 11
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 12
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 13
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 14
+      buyPrice: 150
+      sellPrice: 4
+    - id: 160
+      meta: 15
+      buyPrice: 150
+      sellPrice: 4
+    - id: 168
+      meta: 0
+      buyPrice: 20
+      sellPrice: 10
+    - id: 169
+      meta: 0
+      buyPrice: 50
+      sellPrice: 4
+    - id: 199
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 200
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 201
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 235
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 236
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 237
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 238
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 239
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 240
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 241
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 242
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 243
+      meta: 0
+      buyPrice: 100
+      sellPrice: 20
+    - id: 244
+      meta: 0
+      buyPrice: 100000
+      sellPrice: 200
+  §6§l卐Tools:
+    icon: http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c301.png
+    items:
+    - id: 268
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 269
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 270
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 271
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 290
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 272
+      meta: 0
+      buyPrice: 70
+      sellPrice: 2
+    - id: 273
+      meta: 0
+      buyPrice: 70
+      sellPrice: 4
+    - id: 274
+      meta: 0
+      buyPrice: 70
+      sellPrice: 4
+    - id: 275
+      meta: 0
+      buyPrice: 70
+      sellPrice: 4
+    - id: 291
+      meta: 0
+      buyPrice: 70
+      sellPrice: 4
+    - id: 283
+      meta: 0
+      buyPrice: 90
+      sellPrice: 4
+    - id: 284
+      meta: 0
+      buyPrice: 90
+      sellPrice: 6
+    - id: 285
+      meta: 0
+      buyPrice: 90
+      sellPrice: 6
+    - id: 286
+      meta: 0
+      buyPrice: 90
+      sellPrice: 6
+    - id: 294
+      meta: 0
+      buyPrice: 90
+      sellPrice: 6
+    - id: 267
+      meta: 0
+      buyPrice: 150
+      sellPrice: 8
+    - id: 256
+      meta: 0
+      buyPrice: 150
+      sellPrice: 8
+    - id: 257
+      meta: 0
+      buyPrice: 150
+      sellPrice: 8
+    - id: 258
+      meta: 0
+      buyPrice: 150
+      sellPrice: 8
+    - id: 292
+      meta: 0
+      buyPrice: 150
+      sellPrice: 8
+    - id: 276
+      meta: 0
+      buyPrice: 60
+      sellPrice: 10
+    - id: 277
+      meta: 0
+      buyPrice: 60
+      sellPrice: 10
+    - id: 278
+      meta: 0
+      buyPrice: 60
+      sellPrice: 10
+    - id: 279
+      meta: 0
+      buyPrice: 60
+      sellPrice: 10
+    - id: 293
+      meta: 0
+      buyPrice: 60
+      sellPrice: 10
+    - id: 345
+      meta: 0
+      buyPrice: 500
+      sellPrice: 10
+    - id: 346
+      meta: 0
+      buyPrice: 500
+      sellPrice: 100
+    - id: 347
+      meta: 0
+      buyPrice: 500
+      sellPrice: 10
+    - id: 261
+      meta: 0
+      buyPrice: 2000
+      sellPrice: 400
+    - id: 262
+      meta: 0
+      buyPrice: 50
+      sellPrice: 1
+    - id: 259
+      meta: 0
+      buyPrice: 5000
+      sellPrice: 10
+  §6§l卐Ores:
+    icon: http://moziru.com/images/minecraft-clipart-14.png    
+    items:
+    - id: 264
+      meta: 0
+      buyPrice: 150
+      sellPrice: 16
+    - id: 265
+      meta: 0
+      buyPrice: 100
+      sellPrice: 12
+    - id: 266
+      meta: 0
+      buyPrice: 90
+      sellPrice: 12
+    - id: 388
+      meta: 0
+      buyPrice: 150
+      sellPrice: 16
+    - id: 263
+      meta: 0
+      buyPrice: 50
+      sellPrice: 10
+    - id: 331
+      meta: 0
+      buyPrice: 150
+      sellPrice: 16
+  §6§l卐Armor:
+    icon: http://www.blocksandgold.com//media/catalog/product/cache/3/image/200x/6cffa5908a86143a54dc6ad9b8a7c38e/d/i/diamondchestplate_icon32.png
+    items:
+    - id: 298
+      meta: 0
+      buyPrice: 80
+      sellPrice: 8
+    - id: 299
+      meta: 0
+      buyPrice: 80
+      sellPrice: 8
+    - id: 300
+      meta: 0
+      buyPrice: 80
+      sellPrice: 8
+    - id: 301
+      meta: 0
+      buyPrice: 80
+      sellPrice: 8
+    - id: 302
+      meta: 0
+      buyPrice: 90
+      sellPrice: 8
+    - id: 303
+      meta: 0
+      buyPrice: 90
+      sellPrice: 8
+    - id: 304
+      meta: 0
+      buyPrice: 90
+      sellPrice: 8
+    - id: 305
+      meta: 0
+      buyPrice: 90
+      sellPrice: 8
+    - id: 306
+      meta: 0
+      buyPrice: 110
+      sellPrice: 8
+    - id: 307
+      meta: 0
+      buyPrice: 110
+      sellPrice: 8
+    - id: 308
+      meta: 0
+      buyPrice: 110
+      sellPrice: 8
+    - id: 309
+      meta: 0
+      buyPrice: 110
+      sellPrice: 8
+    - id: 314
+      meta: 0
+      buyPrice: 100
+      sellPrice: 8
+    - id: 315
+      meta: 0
+      buyPrice: 100
+      sellPrice: 8
+    - id: 316
+      meta: 0
+      buyPrice: 100
+      sellPrice: 8
+    - id: 317
+      meta: 0
+      buyPrice: 100
+      sellPrice: 8
+    - id: 310
+      meta: 0
+      buyPrice: 200
+      sellPrice: 8
+    - id: 311
+      meta: 0
+      buyPrice: 200
+      sellPrice: 8
+    - id: 312
+      meta: 0
+      buyPrice: 200
+      sellPrice: 8
+    - id: 313
+      meta: 0
+      buyPrice: 200
+      sellPrice: 8
+  §6§l卐Food:
+    icon: http://www.minecraftopia.com/images/blocks/cookie.png
+    items:
+    - id: 260
+      meta: 0
+      buyPrice: 10
+      sellPrice: 2
+    - id: 297
+      meta: 0
+      buyPrice: 10
+      sellPrice: 2
+    - id: 320
+      meta: 0
+      buyPrice: 20
+      sellPrice: 2
+    - id: 322
+      meta: 0
+      buyPrice: 50
+      sellPrice: 2
+    - id: 364
+      meta: 0
+      buyPrice: 20
+      sellPrice: 2
+    - id: 366
+      meta: 0
+      buyPrice: 20
+      sellPrice: 2
+    - id: 296
+      meta: 0
+      buyPrice: 1
+      sellPrice: 0.5
+    - id: 360
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 391
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+    - id: 392
+      meta: 0
+      buyPrice: 2
+      sellPrice: 0.6
+  §6§l卐Seed:
+    icon: http://www.blocksandgold.com//media/catalog/product/cache/3/image/200x/6cffa5908a86143a54dc6ad9b8a7c38e/w/h/wheatseeds_icon32.png
+    items:
+    - id: 295
+      meta: 0
+      buyPrice: 30
+      sellPrice: 1.6
+    - id: 338
+      meta: 0
+      buyPrice: 30
+      sellPrice: 1
+    - id: 351	
+      meta: 3
+      buyPrice: 30
+      sellPrice: 1.6
+    - id: 361
+      meta: 0
+      buyPrice: 30
+      sellPrice: 2
+    - id: 362
+      meta: 0
+      buyPrice: 30
+      sellPrice: 2
+    - id: 322
+      meta: 0
+      buyPrice: 500
+      sellPrice: 10
+    - id: 6
+      meta: 0
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 1
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 2
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 3
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 4
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 4
+      buyPrice: 5
+      sellPrice: 1
+    - id: 6
+      meta: 4
+      buyPrice: 5
+      sellPrice: 1
+    - id: 175
+      meta: 0
+      buyPrice: 20
+      sellPrice: 1
+    - id: 175
+      meta: 1
+      buyPrice: 20
+      sellPrice: 1
+    - id: 175
+      meta: 2
+      buyPrice: 20
+      sellPrice: 1
+    - id: 175
+      meta: 3
+      buyPrice: 20
+      sellPrice: 1
+    - id: 175
+      meta: 4
+      buyPrice: 20
+      sellPrice: 1
+    - id: 175
+      meta: 5
+      buyPrice: 20
+      sellPrice: 1
+  §6§l卐Others:
+    icon: http://www.blocksandgold.com//media/catalog/product/cache/3/image/200x/6cffa5908a86143a54dc6ad9b8a7c38e/e/y/eyeofender_icon32.png
+    items:
+    - id: 111
+      meta: 0
+      buyPrice: 20
+      sellPrice: 20
+    - id: 116
+      meta: 0
+      buyPrice: 500
+      sellPrice: 10
+    - id: 117
+      meta: 0
+      buyPrice: 500
+      sellPrice: 20
+    - id: 118
+      meta: 0
+      buyPrice: 500
+      sellPrice: 20
+    - id: 145
+      meta: 0
+      buyPrice: 500
+      sellPrice: 20
+    - id: 175
+      meta: 1
+      buyPrice: 5
+      sellPrice: 2
+    - id: 175
+      meta: 4
+      buyPrice: 10
+      sellPrice: 4
+    - id: 332
+      meta: 0
+      buyPrice: 5
+      sellPrice: 2
+    - id: 351
+      meta: 15
+      buyPrice: 30
+      sellPrice: 2
+    - id: 358
+      meta: 0
+      buyPrice: 100
+      sellPrice: 100
+    - id: 368
+      meta: 0
+      buyPrice: 40
+      sellPrice: 20
+    - id: 371
+      meta: 0
+      buyPrice: 50
+      sellPrice: 1
+    - id: 399
+      meta: 0
+      buyPrice: 5000
+      sellPrice: 20
+    - id: 397
+      meta: 1
+      buyPrice: 50000
+      sellPrice: 20
+    - id: 397
+      meta: 2
+      buyPrice: 50000
+      sellPrice: 20
+    - id: 397
+      meta: 3
+      buyPrice: 50000
+      sellPrice: 20
+    - id: 397
+      meta: 4
+      buyPrice: 50000
+      sellPrice: 100
+    - id: 397
+      meta: 5
+      buyPrice: 100000
+      sellPrice: 100
+    - id: 351
+      meta: 0
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 1
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 2
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 4
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 5
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 6
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 7
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 8
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 9
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 10
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 11
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 12
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 13
+      buyPrice: 50
+      sellPrice: 1
+    - id: 372
+      meta: 0
+      buyPrice: 50
+      sellPrice: 1
+    - id: 351
+      meta: 14
+      buyPrice: 50
+      sellPrice: 1
+    - id: 376
+      meta: 0
+      buyPrice: 50
+      sellPrice: 1
+    - id: 106
+      meta: 0
+      buyPrice: 90
+      sellPrice: 1.8
+    - id: 329
+      meta: 0
+      buyPrice: 80
+      sellPrice: 1.7

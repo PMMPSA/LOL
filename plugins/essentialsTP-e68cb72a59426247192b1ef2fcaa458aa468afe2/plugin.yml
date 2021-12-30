@@ -1,0 +1,74 @@
+name: essentialsTP
+main: essentialsTP\essentialsTP
+version: 1.2.2
+api: [3.0.0]
+extensions: [sqlite3]
+commands:
+ home:
+  description: Dịch chuyển đến nhà của bạn.
+  usage: "/home or /home <homename>"
+  permission: essentialstp.command.home
+ sethome:
+  description: Thiết lập địa điểm nhà của bạn.
+  usage: "/sethome <homename>"
+  permission: essentialstp.command.sethome
+ delhome:
+  description: Xóa nhà của bạn.
+  usage: "/delhome <homename>"
+  permission: essentialstp.command.delhome
+ back:
+  description: Dịch chuyển đến chỗ bạn vừa chết.
+  usage: "/back"
+  permission: essentialstp.command.back
+ tpa:
+  description: Gửi yêu cầu dịch chuyển đến người khác.
+  usage: "/tpa <player>"
+  permission: essentialstp.command.tpa
+ tpahere:
+  description: Gửi yêu cầu dịch chuyển đến bạn.
+  usage: "/tpahere <player>"
+  permission: essentialstp.command.tpahere
+ tpaccept:
+  description: Chấp nhận yêu cầu dịch chuyển.
+  usage: "/tpaccept"
+  permission: essentialstp.command.tpaccept
+ tpdeny:
+   description: Hủy yêu cầu dịch chuyển.
+   usage: "/tpdeny"
+   permission: essentialstp.command.tpdeny
+permissions:
+ essentialstp.*:
+  default: op
+  description: "Allows all essentialsTP commands"
+  children:
+   essentialstp.command.*:
+    description: "Allows player to use commands"
+    default: op
+    children:
+     essentialstp.command.tpdeny:
+      description: "Allows player to decline request"
+      default: true
+     essentialstp.command.tpaccept:
+      description: "Allows player to accept request"
+      default: true
+     essentialstp.command.tpahere:
+      description: "Allows player to teleport player to them"
+      default: true
+     essentialstp.command.tpa:
+      description: "Allows player to teleport to another player"
+      default: true
+     essentialstp.command.back:
+      description: "Allows player go back to their last death location"
+      default: true
+     essentialstp.command.delhome:
+      description: "Allows player to delete their homes"
+      default: true
+     essentialstp.command.sethome:
+      description: "Allows player to set their homes"
+      default: true
+     essentialstp.command.home:
+      description: "Allows player to use the home command"
+      default: true
+     essentialstp.command.bedsethome:
+      description: "Allows player to set home with their bed"
+      default: true

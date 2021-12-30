@@ -1,0 +1,26 @@
+{
+   "format_version" : 2,
+   "header" : {
+      "description" : "The bare bones of Minecraft textures",
+      "name" : "Bare Bones 1.09 MC 1.16",
+      "uuid" : "8fc2f7bf-0600-4215-aaec-14aac44c9c13",
+        "version": [
+            1,
+            16,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+   "modules" : [
+      {
+         "description" : "",
+         "type" : "resources",
+         "uuid" : "c1ea5aae-8a3b-4c46-865e-23739ec8c4f5",
+         "version" : [ 1, 0, 0 ]
+      }
+   ]
+}

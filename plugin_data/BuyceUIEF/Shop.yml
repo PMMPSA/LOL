@@ -1,0 +1,71 @@
+---
+#Dont Change this
+version: "0.4"
+#EnchantUI Version 0.4
+Title: "§l§6♦ §fBuyCE§c Shop §6♦"
+Button: "§l§3● {NAME} §3●"
+slider-title: "§l§3●§a Cấp độ"
+messages:
+  label: "§l§3●§a Bạn phải trả§b {PRICE} §aPoints§e cho mỗi một cấp độ"
+  not-enough-money: "§l§6[§bSky§aBlock(Bin)§6]§c Bạn không có đủ tiền!"
+  paid-success: "§l§6[§bSky§aBlock(Bin)§6]§a Bạn đã phù phép thành công§e {NAME} §acấp§e {LEVEL} §avới giá§e {PRICE} Points"
+  hold-item: "§l§6[§bSky§aBlock(Bin)§6]§c Vui lòng cầm đồ vật có thể phù phép"
+  no-perm: "§l§6[§bSky§aBlock(Bin)§6]§c Bạn không có quyền để thực hiện lệnh này"
+shop:
+- name: §l§dBlind §f(Gây Mù)
+  enchantment: Blind
+  price: 60
+  max-level: 5
+- name: §l§dFrozen §f(Đóng Băng)
+  enchantment: Frozen
+  price: 60
+  max-level: 1
+- name: §l§dDrunk §f(Say Rượu)
+  enchantment: Drunk
+  price: 200
+  max-level: 5
+- name: §l§dMolten §f(Gây Cháy)
+  enchantment: Molten
+  price: 150
+  max-level: 5
+- name: §l§dHeavy §f(Tăng Sức Mạnh)
+  enchantment: Heavy
+  price: 100
+  max-level: 5
+- name: §l§dCharge §f(Sạc Điện)
+  enchantment: Charge
+  price: 100
+  max-level: 5
+- name: §l§dBlessed §f(May Mắn)
+  enchantment: Blessed
+  price: 100
+  max-level: 5
+- name: §l§dEnergizing §f(Đào Nhanh)
+  enchantment: Energizing
+  price: 50
+  max-level: 5
+- name: §l§dQuickening §f(Tốc Độ)
+  enchantment: Quickening
+  price: 50
+  max-level: 5
+- name: §l§dWither §f(Khô Héo)
+  enchantment: Wither
+  price: 50
+  max-level: 5
+- name: §l§dPoison §f(Độc)
+  enchantment: Poison
+  price: 100
+  max-level: 5
+- name: §l§dHaste §f(Đào Nhanh)
+  enchantment: Haste
+  price: 100
+  max-level: 5
+- name: §l§dStomp §f(Dậm Chân)
+  enchantment: Stomp
+  price: 40
+  max-level: 5
+- name: §l§dCripple §f(Làm tê liệt)
+  enchantment: Cripple
+  price: 100
+  max-level: 5
+...

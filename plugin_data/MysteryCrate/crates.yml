@@ -1,0 +1,2000 @@
+---
+# DO NOT EDIT THIS VALUE.
+# ONLY FOR INTERNAL USE.
+crates-version: 1
+
+# IMPORTANT NOTE:
+# To reward the player with a command make sure that the meta of the reward is same as
+# commandMeta set in config.yml or else the command won't work.
+#
+# Note(s):
+# - Please use tabs instead of spaces.
+# - You can add infinite many crates to your server just follow the example below.
+# - Use "§" for adding colors.
+# - The headings/keys marked with (OPTIONAL) means that you don't need to add them. The item will work just fine even if its not there.
+crates:
+# EXAMPLE CONFIGURATION.
+# ------------------------
+# crate-name:             | Set the name of the crate.
+#  drops:                 | List the items that can be received from the crate.
+#   - name: "G-Helmet"    | Custom name for the item. (OPTIONAL).
+#     id: 1               | ID of the reward.
+#     meta: 0             | Meta or Damage value of the Item.
+#     amount: 1           | The amount of Item that player receives.
+#     enchantments:       | Set enchants for items here. Both VanillaEnchantments and PiggyCustomEnchants are supported. (OPTIONAL).
+#       protection:       | Name of enchant you wish to apply.
+#         level: 3        | The level for enchant.
+#       unbreaking:       | You can set multiple enchants as long as they are registered.
+#         level: 2        | NOTE: If you don't want enchants simply remove the enchantments heading.
+#     lore: "USE ME"      | Add a custom lore to the reward. Use "\n" for next line. (OPTIONAL).
+#     commands:           | Add commands to execute when player wins a reward. Multiple commands supported. (OPTIONAL).
+#     - "say hi"          | Use \"%PLAYER%\" to insert player name (with the quotes and slash).
+#     - "say test"        | Don't forget to mention the maxCommands in config.yml.
+#  block: "911:0"         | Set the block ID you want the crate to represent. Placing a chest on it will activate the crate.
+#  broadcast              | Want to broadcast a message when a player opens a crate?
+#   enable: true          | Set this to true to enable broadcasts and false to disable broadcasts.
+#   command: "say hi"     | The command the executes when a player opens a crate.
+# ------------------------
+
+  weapons:
+    drops:
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          backstab:
+            level: 2 
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          haste:
+            level: 2  
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          frozen:
+            level: 2
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          drunk:
+            level: 2  
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          endershift:
+            level: 2 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          heavy:
+            level: 2  
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          cripplingstrike:
+            level: 2
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16        
+      - name: "§l§6●▬▬ §d【§eKiếm §aMaster §bYi§d】 ▬▬§6●§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 30
+          unbreaking:
+            level: 250
+          knockback:
+            level: 4
+          fire_aspect:
+            level: 4  
+          poison:
+            level: 2
+          wither:
+            level: 2
+          vampire:
+            level: 2
+          charge:
+            level: 2
+          backstab:
+            level: 2
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§eNón §aMaster §bYi§d】 ▬▬§6●§r"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 40
+          unbreaking:
+            level: 400
+          fire_protection:
+            level: 20
+          thorns:
+            level: 20
+          heavy:
+            level: 2
+          blessed:
+            level: 2 
+          tank:
+            level: 2
+          enlighted:
+            level: 2
+          cursed:
+            level: 2
+          poisoned:
+            level: 2
+          hardened:
+            level: 2
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          enlighted:
+            level: 2 
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          gears:
+            level: 2
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§eAó §aMaster §bYi§d】 ▬▬§6●§r"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 40
+          unbreaking:
+            level: 400
+          fire_protection:
+            level: 20
+          thorns:
+            level: 20
+          heavy:
+            level: 2
+          blessed:
+            level: 2 
+          tank:
+            level: 2
+          enlighted:
+            level: 2
+          cursed:
+            level: 2
+          poisoned:
+            level: 2
+          hardened:
+            level: 2
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          energizing:
+            level: 2
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§6Đại §bHỏa Tiễn§r§d】 ▬▬§6●§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          flame:
+            level: 4  
+          infinity:
+            level: 2
+          power:
+            level: 30
+          punch:
+            level: 4
+          unbreaking:
+            level: 100
+          paralyze:
+            level: 2
+          shuffle:
+            level: 2  
+          lightning:
+            level: 1
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "§l§6●▬▬ §d【§6Cung §aRỉ Sét§r§d】 ▬▬§6●§r"
+        id: 261
+        meta: 0
+        amount: 1
+        enchantments:
+          flame:
+            level: 2  
+          infinity:
+            level: 1
+          power:
+            level: 20 
+          punch:
+            level: 2
+          unbreaking:
+            level: 50
+          paralyze:
+            level: 2
+          shuffle:
+            level: 2  
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          poison:
+            level: 2  
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          wither:
+            level: 2 
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          blessed:
+            level: 2  
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§2Sách Custom Enchant§r§d】 ▬▬§6●§r"
+        id: 340
+        meta: 0
+        amount: 1
+        enchantments:
+          haste:
+            level: 2
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§eQuần §aMaster §bYi§d】 ▬▬§6●§r"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 40
+          unbreaking:
+            level: 400
+          fire_protection:
+            level: 20
+          thorns:
+            level: 20
+          heavy:
+            level: 2
+          blessed:
+            level: 2 
+          tank:
+            level: 2
+          enlighted:
+            level: 2
+          cursed:
+            level: 2
+          poisoned:
+            level: 2
+          hardened:
+            level: 2       
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§eGiày §aMaster §bYi§d】 ▬▬§6●§r"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 40
+          unbreaking:
+            level: 400
+          fire_protection:
+            level: 20
+          thorns:
+            level: 20
+          heavy:
+            level: 2
+          blessed:
+            level: 2 
+          tank:
+            level: 2
+          enlighted:
+            level: 2
+          cursed:
+            level: 2
+          poisoned:
+            level: 2
+          hardened:
+            level: 2       
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+    block: "213:0"
+    broadcast:
+      enable: false
+      command: "say §l§b\"%PLAYER%\"§d đang mở quay thưởng §6weapons §dtại§a /warp crate"
+  hextech:
+    drops:
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§6Kiếm §cYone§d】 ▬▬§6●§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 25
+          unbreaking:
+            level: 700
+          knockback:
+            level: 6
+          fire_aspect:
+            level: 10
+          cripplingstrike:
+            level: 5
+          poison:
+            level: 2
+          wither:
+            level: 2
+          backstab:
+            level: 5
+          vampire:
+            level: 3
+          lifesteal:
+            level: 5
+          charge:
+            level: 5
+          blessed:
+            level: 5 
+          deathbringer:
+            level: 5 
+          lightning:
+            level: 2            
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Ender Chest"
+        id: 130
+        meta: 0
+        amount: 1
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "§l§6●▬▬ §d【§6Kiếm §bYasuo§d】 ▬▬§6●§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 30
+          unbreaking:
+            level: 500
+          knockback:
+            level: 7
+          fire_aspect:
+            level: 8
+          cripplingstrike:
+            level: 5
+          poison:
+            level: 4
+          wither:
+            level: 2
+          backstab:
+            level: 5
+          vampire:
+            level: 1
+          lifesteal:
+            level: 5
+          charge:
+            level: 5
+          blessed:
+            level: 5 
+          deathbringer:
+            level: 5 
+          lightning:
+            level: 3        
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Ender Chest"
+        id: 130
+        meta: 0
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Enchanted Apple"
+        id: 466
+        meta: 0
+        amount: 16
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16        
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16  
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1       
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§6Rìu §eTiamac§d】 ▬▬§6●§r"
+        id: 279
+        meta: 0
+        amount: 1
+        enchantments:
+          unbreaking:
+            level: 200
+          fire_aspect:
+            level: 10
+          lightning:
+            level: 2
+          efficiency:
+            level: 10
+          driller:
+            level: 1
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a ★★★\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16  
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1       
+    block: "7:0"
+    broadcast:
+      enable: false
+      command: "say §l§b\"%PLAYER%\"§d đang mở quay thưởng §6gun §dtại§a /warp crate"
+  legend:
+    drops:
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§6Cúp §cLegend§d】 ▬▬§6●§r"
+        id: 278
+        meta: 0
+        amount: 1
+        enchantments:
+          efficiency:
+            level: 70
+          unbreaking:
+            level: 1000
+          fortune:
+            level: 50
+          haste:
+            level: 5
+          quickening:
+            level: 5  
+          jackpot:
+            level: 5             
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§6Kiếm §cLegend§d】 ▬▬§6●§r"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          sharpness:
+            level: 100
+          unbreaking:
+            level: 1000
+          knockback:
+            level: 10
+          fire_aspect:
+            level: 15  
+          cripplingstrike:
+            level: 5
+          poison:
+            level: 5
+          wither:
+            level: 5
+          backstab:
+            level: 5
+          vampire:
+            level: 5
+          lifesteal:
+            level: 5
+          charge:
+            level: 5
+          blessed:
+            level: 5 
+          deathbringer:
+            level: 5 
+          lightning:
+            level: 2            
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "§l§6●▬▬ §d【§eNón §cLegend§d】 ▬▬§6●§r"
+        id: 310
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 110
+          unbreaking:
+            level: 1000
+          fire_protection:
+            level: 30
+          thorns:
+            level: 30
+          heavy:
+            level: 5
+          blessed:
+            level: 5   
+          endershift:
+            level: 5  
+          tank:
+            level: 5             
+          berserker:
+            level: 5 
+          cloaking:
+            level: 5 
+          enlighted:
+            level: 5 
+          cactus:
+            level: 1
+          shielded:
+            level: 1
+          hardened:
+            level: 5
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§eAó §cLegend§d】 ▬▬§6●§r"
+        id: 311
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 110
+          unbreaking:
+            level: 1000
+          fire_protection:
+            level: 30
+          thorns:
+            level: 30
+          heavy:
+            level: 5
+          blessed:
+            level: 5   
+          endershift:
+            level: 5  
+          tank:
+            level: 5             
+          berserker:
+            level: 5 
+          cloaking:
+            level: 5 
+          enlighted:
+            level: 5 
+          cactus:
+            level: 1
+          shielded:
+            level: 1
+          hardened:
+            level: 5        
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16        
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "§l§6●▬▬ §d【§eGiày §cLegend§d】 ▬▬§6●§r"
+        id: 313
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 110
+          unbreaking:
+            level: 1000
+          fire_protection:
+            level: 30
+          thorns:
+            level: 30
+          heavy:
+            level: 5
+          blessed:
+            level: 5   
+          endershift:
+            level: 5  
+          tank:
+            level: 5             
+          berserker:
+            level: 5 
+          cloaking:
+            level: 5 
+          enlighted:
+            level: 5 
+          cactus:
+            level: 1
+          shielded:
+            level: 1
+          hardened:
+            level: 5       
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate." 
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6●▬▬ §d【§eQuần §cLegend§d】 ▬▬§6●§r"
+        id: 312
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 110
+          unbreaking:
+            level: 1000
+          fire_protection:
+            level: 30
+          thorns:
+            level: 30
+          heavy:
+            level: 5
+          blessed:
+            level: 5   
+          endershift:
+            level: 5  
+          tank:
+            level: 5             
+          berserker:
+            level: 5 
+          cloaking:
+            level: 5 
+          enlighted:
+            level: 5 
+          cactus:
+            level: 1
+          shielded:
+            level: 1
+          hardened:
+            level: 5          
+        lore: "§l§3●§c Vật phẩm cực hiếm được phù phép với nhiều loại khác nhau.\n§l§3● §cĐộ Hiếm:§a Cực Phẩm (Đừng Làm Mất)\n§l§3● §cVật phẩm chỉ nhận được tại crate."
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Emerald"
+        id: 388
+        meta: 0
+        amount: 16
+      - name: "§l§6May §dMắn §bLần sau"
+        id: 339
+        meta: 50
+        amount: 1
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+      - name: "Diamond"
+        id: 264
+        meta: 0
+        amount: 16
+      - name: "Iron Ingot"
+        id: 265
+        meta: 0
+        amount: 10
+      - name: "Gold Ingot"
+        id: 266
+        meta: 0
+        amount: 10
+      - name: "Golden Apple"
+        id: 322
+        meta: 0
+        amount: 16
+    block: "214:0"
+    broadcast:
+      enable: false
+      command: "say §l§b\"%PLAYER%\"§d đang mở quay thưởng §6boss §dtại§a /warp crate"
+# ---------------------------------------------------------
+# YOU CAN ADD MORE CRATES BELOW. JUST FOLLOW THE PATTERN.
+# ---------------------------------------------------------
+...

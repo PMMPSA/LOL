@@ -1,0 +1,9 @@
+name: sblevel
+main: Shin\sbLevel
+api: [3.0.0, 2.0.0]
+author: AmGM-Encode
+version: 0.1
+commands:
+ topdao:
+  description: Xem Top Đảo Của Server
+  default: true

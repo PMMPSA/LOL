@@ -1,0 +1,51 @@
+---
+crate:
+  x: -358.537800
+  "y": 77.000000
+  z: 424.481000
+  level: skyblock
+  public: true
+  metadata: []
+boss:
+  x: 269.615100
+  "y": 4.000000
+  z: 429.682000
+  level: boss
+  public: true
+  metadata: []
+pvp:
+  x: 99.914300
+  "y": 83.000000
+  z: 39.574100
+  level: Koth
+  public: true
+  metadata: []
+quaytay:
+  x: -357.766100
+  "y": 77.000000
+  z: 427.579400
+  level: skyblock
+  public: false
+  metadata: []
+mine:
+  x: 247.514500
+  "y": 94.000000
+  z: 259.523000
+  level: mine
+  public: true
+  metadata: []
+nhatu:
+  x: 271.507100
+  "y": 5.000000
+  z: 248.713700
+  level: prison
+  public: true
+  metadata: []
+jail:
+  x: 281.493700
+  "y": 5.000000
+  z: 251.656700
+  level: prison
+  public: false
+  metadata: []
+...

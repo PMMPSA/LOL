@@ -1,0 +1,65 @@
+---
+banitem:
+  10: Lava
+  259: Flint and Steel
+  290: Wooden Hoe
+  291: Stone Hoe
+  292: Iron Hoe
+  293: Diamond Hoe
+  294: Gold Hoe
+  269: Wooden Shovel
+  385: Fire Charge
+  273: Stone Shovel
+  256: Iron Shovel
+  277: Diamond Shovel
+  284: Gold Shovel
+  426: Ender Crystal
+  325: Bucket
+  438: Splash Potion
+  321: Painting
+  425: Armor Stand
+  384: Bottle o' Enchanting
+  441: Lingering Water Bottle
+  383: Spawn Egg
+  8: Water
+  9: Still Water
+  261: Bow
+  333: Oak Boat
+  401: Fireworks
+auth:
+  noobpvp2k3: noobpvp2k3
+bancmds:
+  /me: /me
+  /broadcast: /broadcast
+  /pocketmine:broadcast: /pocketmine:broadcast
+  /pocketmine:me: /pocketmine:me
+  /god: /god
+  /weather: /weather
+  /pocketmine:weather: /pocketmine:weather
+  /setvip: /setvip
+  /suicide: /suicide
+  /pocketmine:suicide: /pocketmine:suicide
+  /world: /world
+  /pocketmine:world: /pocketmine:world
+  /effect: /effect
+  /pocketmine:playsound: /pocketmine:playsound
+  /playsound: /playsound
+  /pocketmine:effect: /pocketmine:effect
+  /stop: /stop
+  /spawnpet: /spawnpet
+  /weapon: /weapon
+  /pocketmine:stop: /pocketmine:stop
+  /reload: /reload
+  /pocketmine:reload: /pocketmine:reload
+  /rca: /rca
+  /pocketmine:enchant: /pocketmine:enchant
+  /pocketmine:rca: /pocketmine:rca
+  /pocketmine:op: /pocketmine:op
+  /kill: /kill
+  /pocketmine:kill: /pocketmine:kill
+  /setuperm: /setuperm
+  //set: //set
+  /enchant: /enchant
+pvp: false
+protect: lock
+...

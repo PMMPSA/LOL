@@ -1,0 +1,50 @@
+---
+# Below is the config are the messages that will be broadcasted
+messages:
+ - "§r§f Để nạp thẻ tự động tại §dserver§f hãy liên hệ qua page §cbit.do/lolvn §f[Nạp Thẻ Sẽ Được X2 Point]"
+ - "§r§f Muốn người khác không thể §9tp qua bạn?§f Hãy dùng lệnh§c /khongtp"
+ - "§r§f Mua §6Point bằng cách dùng lệnh §c/muapoint§9 [§f700.000 Xu = 1 Point§9]"
+ - "§r§f Để nạp thẻ tự động tại §dserver§f hãy liên hệ qua page §cbit.do/lolvn §f[Nạp Thẻ Sẽ Được X2 Point]"
+ - "§r§f Khi gửi tiền vô §6ngân hàng, §fbạn sẽ được nhận lại tiền lãi!, dùng §e/nganhang §fđể gửi!"
+ - "§r§f Bán tất cả đồ bằng lệnh §b/sell all"
+ - "§r§f Để nạp thẻ tự động tại §dserver§f hãy liên hệ qua page §cbit.do/lolvn §f[Nạp Thẻ Sẽ Được X2 Point]"
+ - "§r§f Bạn muốn mua §3key crate? §fHãy dùng lệnh§c /choden §fđể mua!"
+ - "§r§f Bạn muốn mua các §bdanh hiệu §fcực ngầu tại đây?? §fHãy dùng lệnh§c /muadanhhieu §fđể mua! §fDùng §e/danhhieu §fđể bật. "
+ - "§r§f Dùng §b/ah §fđể đấu giá món đồ của bạn."
+ - "§r§f Khi §6cúp level §fcủa bạn lên §acấp 500§f, bạn sẽ được §cX2 item §fkhi đào!"
+ - "§r§f Muốn sửa đồ?§f Hãy dùng lệnh §c/suado"
+ - "§r§f Để xây dựng một §2clan§f hùng mạnh,§f hãy dùng lệnh §c/clan help"
+ - "§r§f Đệ tử mine hộ là một tính năng cực hay của §dserver,§f giúp bạn có 1 đệ tử mine tự động, dùng §c/detu§a §fđể mua"
+ - "§r§f Muốn trở thành pro §achuyển sinh?§f hãy dùng §c/chuyensinh §9[§fKhi Chuyển Sinh Bạn Sẽ Mine Được Xu§9]"
+ - "§r§f Để nạp thẻ tự động tại §dserver§f hãy liên hệ qua page §cbit.do/lolvn §f[Nạp Thẻ Sẽ Được X2 Point]"
+
+
+# The below config is the prefix before the above messages
+prefix: "§l§3✉§6 [§bʟ§cᴑ§aʟ§6]"
+
+# The below configs is when the messages above will be broadcasted in seconds
+broadcast-interval: 60
+
+# The below config is the server name that will show up in the minecraft server list (NOTE: Use & for color coding)
+motd: ""
+
+# The below config is the title that will show when the player joins the server.
+# To show the player's name use {playername}.
+join-title: ""
+
+# The below config is the subtitle that will show when the player joins the server
+# To show the player's name use {playername}.
+join-subtitle: ""
+
+# The below config is the message that will be sent when the player joins the server
+join-message: ""
+
+# The below config is to toggle on or off novoid support (OPTIONS: on and off)
+novoid: "on"
+
+# The below config is to toggle on or off hunger disabler support (OPTIONS: on and off)
+hunger-disabler: "off"
+
+# The below config is to toggle on or off clear lagg support (OPTIONS: on and off)
+clearlagg: "off"
+...

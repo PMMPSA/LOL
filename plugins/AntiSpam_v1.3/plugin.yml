@@ -1,0 +1,12 @@
+main: xbeastmode\antispammer\AntiSpammer
+api: 3.0.0
+load: STARTUP
+name: AntiSpam
+description: "antispam plugin"
+version: 1.3
+author: xBeastMode
+
+permissions:
+  spam.bypass:
+    default: op
+    description: "Allow bypassing the spam limit"

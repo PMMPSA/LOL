@@ -1,0 +1,7 @@
+name: ShopUI
+main: shopui\ShopUI
+version: 0.0.1
+api: 3.0.0
+author: InstantlyTa
+description: Shopy shopy!
+depend: ["EconomyAPI"]

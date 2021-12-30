@@ -1,0 +1,18 @@
+---
+#time in seconds a player has to wait to send a message again
+time: 2
+#max warnings a player will receive until they receive a block type
+max_warnings: 5
+#warn player each time they spam
+warning_message: "&l&6[&bMine&aFore&6]&e Hãy chat chậm lại!"
+#What type of block do you want?
+#Types: message, mute, kick, ban, ban-ip
+block_type: mute
+#how much time should the player be muted (in seconds)
+mute_time: 10
+#message when player gets muted
+mute_message: "&l&6[&bMine&aFore&6]&e Bạn đã bị mute do spam."
+#message when player is still muted
+muted_message: "&l&6[&bMine&aFore&6]&e Bạn đang bị mute."
+un-muted_message: "&l&6[&bMine&aFore&6]&a Bạn đã được gỡ mute, Đừng spam nữa!"
+...

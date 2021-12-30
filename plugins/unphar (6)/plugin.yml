@@ -1,0 +1,14 @@
+name: TheoDoi
+main: cmdsnooper\CmdSnooper
+version: 1.2.0
+api: [3.0.0]
+author: HotshotHD & CodeRed2019
+description: Theo dõi member!
+
+commands:
+  theodoi:
+    description: Bật chế độ theo dõi!
+permissions:
+   theodoi.command:
+    default: op
+ 

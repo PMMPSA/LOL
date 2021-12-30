@@ -1,0 +1,18 @@
+---
+boss: §6Boss§a Crate
+boss.x: 82
+boss.y: 153
+boss.z: 35
+weapons: §6Weapons§a Crate
+weapons.x: 82
+weapons.y: 153
+weapons.z: 29
+hextech: §6Hextech§a Crate
+hextech.x: 82
+hextech.y: 153
+hextech.z: 32
+legend: §6Legend§a Crate
+legend.x: 82
+legend.y: 153
+legend.z: 35
+...

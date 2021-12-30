@@ -1,0 +1,13 @@
+name: Police
+main: nlog\Police\Main
+version: 4
+author: nlog
+api:
+ - 3.0.0
+commands:
+  police:
+    description: set police
+    permission: police.cmd
+permissions:
+  police.cmd:
+    default: op

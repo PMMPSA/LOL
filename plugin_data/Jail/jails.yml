@@ -1,0 +1,22 @@
+---
+jail:
+  pos:
+    x: 273
+    "y": 5
+    z: 262
+    level: prison
+  c1:
+    x: 273
+    "y": 4
+    z: 262
+    level: prison
+  c2:
+    x: 273
+    "y": 4
+    z: 262
+    level: prison
+  allow-bail: true
+  allow-visit: true
+  mine:
+    isSet: false
+...

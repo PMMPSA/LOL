@@ -1,0 +1,60 @@
+#
+#
+#  Config Trade
+# Example:
+#           |"1":     
+#           |   Button: Example Trade
+#           |   support: 
+#           |       money: "true|false"
+#           |       point: "true|false"
+#           |   price:
+#           |       money: <price>
+#           |       point: <price>
+#           |   New-Item:
+#           |       Id: id:meta:count
+#           |       Name: Name Item
+#           |       Lore: Lore Item
+#           |   Enchantments:
+#           |       Id: ID enchantment
+#           |       Level: Level Enchantment
+#           |   Content: Content Trade
+"1":
+  Button: "§l§f• §aCúp §6 Manga§f •"
+  support:
+    money: "true"
+    point: "false"
+  price:
+    money: 10000000
+    point: 0 
+  New-Item:
+    Id: "278:0:1"
+    Name: "§l§f• §aCúp §6 Manga§f •"
+    Lore: "§l§6•§aĐộ hiếm:§e ✩✩  "
+  Enchantments:
+    1:
+        Id: "efficiency"
+        Level: 10
+    2:
+        Id: "fortune"
+        Level: 7
+    3:
+        Id: "haste"
+        Level: 2
+  Content: " §c§l•§aBạn có chắc muốn mua §l§f• §aCúp §6 Manga§f • \n§avới giá §e10000000 xu?\n §bChi tiết:\n §dHaste: 2\n §fEfficiency: 10\n §fFortune: 7 "
+"2":
+  Button: "Example Trade 2"
+  support:
+    money: "false"
+    point: "true"
+  price:
+    money: 0
+    point: 10 
+  New-Item:
+    Id: "278:0:1"
+    Name: "hihihi"
+    Lore: "hihihi"
+  Enchantments:
+    1:
+        Id: 17
+        Level: 2
+  Content: "Diamond pickaxe-II : 10 point"

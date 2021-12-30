@@ -1,0 +1,6 @@
+name: Minerloot
+description: "Find random loot underground"
+author: Distoxicqted
+version: 1.0.0
+main: Distoxicqted\tl\Main
+api: 3.1.4

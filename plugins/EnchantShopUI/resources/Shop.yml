@@ -1,0 +1,95 @@
+---
+#Dont Change this
+version: "0.4"
+#EnchantUI Version 0.4
+Title: "§l§b♦ §2BuyEnchant§c §4Shop §b♦"
+Button: "§l§4✠§2 {NAME} §4✠"
+slider-title: "§l§3●§a Cấp độ"
+messages:
+  label: "§l§3●§a Bạn phải trả§b {PRICE} §aXus§e cho mỗi một cấp độ"
+  not-enough-money: "§l§6[§bMine§aFore§6]§c Bạn không có đủ tiền!"
+  paid-success: "§l§6[§bMine§aFore§6]§a Bạn đã phù phép thành công§e {NAME} §acấp§e {LEVEL} §avới giá§e {PRICE} Xu"
+  hold-item: "§l§6[§bMine§aFore§6]§c Vui lòng cầm đồ vật có thể phù phép"
+  no-perm: "§l§6[§bMine§aFore§6]§c Bạn không có quyền để thực hiện lệnh này"
+shop:
+- name: Fire Protection
+  enchantment: fire_protection
+  price: 6000
+  max-level: 15
+- name: Protection
+  enchantment: 1
+  price: 6000
+  max-level: 15
+- name: Projectile Protection
+  enchantment: 4
+  price: 6000
+  max-level: 15
+- name: Thorns
+  enchantment: thorns
+  price: 6000
+  max-level: 15
+- name: Blast Protection
+  enchantment: 3
+  price: 6000
+  max-level: 15
+- name: Respiration
+  enchantment: respiration
+  price: 6000
+  max-level: 15
+- name: Feather Falling
+  enchantment: 2
+  price: 6000
+  max-level: 15
+- name: Sharpness
+  enchantment: sharpness
+  price: 6000
+  max-level: 15
+- name: Knockback
+  enchantment: knockback
+  price: 6000
+  max-level: 15
+- name: Fire Aspect
+  enchantment: 13
+  price: 6000
+  max-level: 15
+- name: Power
+  enchantment: 19
+  price: 6000
+  max-level: 15
+- name: Punch
+  enchantment: 20
+  price: 6000
+  max-level: 15
+- name: Flame
+  enchantment: 21
+  price: 6000
+  max-level: 15
+- name: infinity
+  enchantment: 22
+  price: 6000
+  max-level: 15
+- name: Efficiency
+  enchantment: 15
+  price: 6000
+  max-level: 15
+- name: Silk Touch
+  enchantment: 16
+  price: 6000
+  max-level: 15
+- name: Lure
+  enchantment: 24
+  price: 6000
+  max-level: 15
+- name: Luck Of The Sea
+  enchantment: 23
+  price: 6000
+  max-level: 15
+- name: Unbreaking
+  enchantment: 17
+  price: 6000
+  max-level: 15
+- name: Mending
+  enchantment: 26
+  price: 6000
+  max-level: 15
+...

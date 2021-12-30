@@ -1,0 +1,42 @@
+---
+type: block
+message: §l§6[§bMine§aFore§6]§e Bạn không được phép chat từ này!
+domain:
+- fca
+- play.fcape.vn
+- fcape
+- "19132"
+- mhvn.ddns.net
+- mhvn
+- skyvn
+- play.skyvn.net
+- play.royalvn.net
+- royalvn
+- sv.rootmc.net
+- rootmc
+- pe.heromc.net
+- heromc
+- play.minetownpe.com
+- minetownpe
+- .net
+- .tk
+- .xyz
+- .com
+- royal
+- lor
+- locm
+allowed.domain:
+- minefore.xyz
+detect.sign: true
+lines:
+- =============
+- Đừng Quảng Cáo!
+- =============
+- ""
+blocked.cmd:
+- /me
+- /t
+- /tell
+- /w
+- /msg
+...

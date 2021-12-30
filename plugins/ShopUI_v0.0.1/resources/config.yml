@@ -1,0 +1,24 @@
+#database:
+#  Blocks:
+#    icon: http://fcape.vn/items/1-0.png
+#    items:
+#    - id: 2
+#      meta: 0
+#      buyPrice: 100
+#      sellPrice: 100
+#    - id: 1
+#      meta: 0
+#      buyPrice: 0.5
+#      sellPrice: 0.15
+#  Food:
+#    icon: http://fcape.vn/items/364-0.png
+#    items:
+#    - id: 364
+#      meta: 0
+#      buyPrice: 200
+#      sellPrice: 100
+#    - id: 322
+#      meta: 0
+#      buyPrice: 50
+#      sellPrice: 50
+database: []

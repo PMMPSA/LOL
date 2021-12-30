@@ -1,0 +1,11 @@
+---
+level: map1
+slots: 2
+spawns:
+  spawn-1: 265.6182,17,241.1742
+  spawn-2: 294.5334,17,241.3804
+enabled: true
+joinsign:
+- "-361,70,411"
+- skyblock
+...

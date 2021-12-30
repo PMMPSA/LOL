@@ -1,0 +1,11 @@
+name: ChoDenUI
+main: ChoDenUI\ChoDen\Main
+api:
+ - 3.0.0
+ - 3.2.0
+version: 3.5
+author: BlackPMFury
+commands:
+ choden:
+  description: "Chợ Đen Nơi Bán Tính Năng Cực Hiếm!"
+  default: true

@@ -1,0 +1,14 @@
+name: BuyFix
+main: BuyFix\Main
+author: HumYaiJang
+version: 1.0.0
+api: 3.0.6
+commands:
+ suado:
+  description: Sửa Đồ!
+ sinhton: 
+  description: Gamemode s!
+  default: op
+ sangtao: 
+  description: Gamemode c!
+  default: op

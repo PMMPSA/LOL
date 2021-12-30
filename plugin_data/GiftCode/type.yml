@@ -1,0 +1,25 @@
+---
+Noob:
+  - "give {player} shulker_box 1"
+  - "give {player} cake 8"
+  - "give {player} magma 16"
+  - "setuperm {player} qua.noob"
+  - "say §f•§c Người chơi {player} đã nhận được code§b Noob "
+Diamond:
+  - "give {player} shulker_box 1"
+  - "give {player} portal 5"
+  - "give {player} cake 16"
+  - "give {player} magma 32"
+  - "setuperm {player} qua.diamond"
+  - "say §f•§c Người chơi {player} đã nhận được code§b Diamond"
+Royal:
+  - "give {player} shulker_box 1"
+  - "give {player} elytra 1"
+  - "give {player} bedrock 32"
+  - "give {player} portal 10"
+  - "give {player} cake 16"
+  - "give {player} 397:5 1"
+  - "give {player} magma 32"
+  - "setuperm {player} qua.royal"
+  - "say §f•§c Người chơi {player} đã nhận được code§b Royal"
+...

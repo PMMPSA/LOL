@@ -1,0 +1,36 @@
+---
+plugin-name: essentalsTp+
+sqlite-dbname: essentials_tp
+tpa-here-cooldown: "30"
+bed-sets-home: "false"
+Lang_invalid_usage: 'INVALID USAGE:'
+Lang_command_only_use_ingame: §l§6[§bSky§aBlock(Bin)§6] §eLệnh này chỉ có thể được
+  sử dụng trong trò chơi.
+Lang_no_permissions: §l§6[§bSky§aBlock(Bin)§6] §eKhông cho phép.
+Lang_teleport_home: §l§6[§bSky§aBlock(Bin)§6] §eDịch chuyển về nhà.
+Lang_teleport_death: §l§6[§bSky§aBlock(Bin)§6] §eDịch chuyển đến dây chết cuối cùng.
+Lang_your_homes: §l§6● §aNgôi nhà của bạn:§b
+Lang_no_home_set: §l§6[§bSky§aBlock(Bin)§6] §eBạn chưa đặt nhà.
+Lang_no_home_name: §l§6[§bSky§aBlock(Bin)§6] §eBạn không có một ngôi nhà theo tên
+  đó.
+Lang_home_set: §l§6[§bSky§aBlock(Bin)§6] §eNhà được đặt là
+Lang_home_delete_1: §l§6[§bSky§aBlock(Bin)§6] §aNhà có tên:§b
+Lang_home_delete_2: §eđã bị xóa.
+Lang_no_teleport_self: §l§6[§bSky§aBlock(Bin)§6] §eBạn không thể dịch chuyển đến bản
+  thân.
+Lang_player_not_online: §l§6[§bSky§aBlock(Bin)§6] §eNgười chơi không trực tuyến.
+Lang_sent_request_you: §l§6[§bSky§aBlock(Bin)§6] §eBạn nhận được yêu cầu dịch chuyển
+  đến bạn từ§b
+Lang_sent_request_them: §l§6[§bSky§aBlock(Bin)§6] §eBạn nhận được yêu cầu dịch chuyển
+  đến họ từ§b
+Lang_accept_request: §ađể chấp nhận yêu cầu này.
+Lang_decline_request: §cđể từ chối yêu cầu này.
+Lang_request_expire_1: §l§6[§bSky§aBlock(Bin)§6] §eYêu cầu này chỉ tồn tại trong§b
+Lang_request_expire_2: §egiây
+Lang_request_expire_3: §ctrước khi nó hết hạn
+Lang_type: §l§6● §dDùng
+Lang_no_active_request: §l§6[§bSky§aBlock(Bin)§6] §eKhông có yêu cầu hoạt động tồn
+  tại.
+Lang_no_death: §l§6[§bSky§aBlock(Bin)§6] §eLàm ơn đã chết.
+tp-home-cooldown: "5"
+...

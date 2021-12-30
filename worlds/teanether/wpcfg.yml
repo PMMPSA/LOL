@@ -1,0 +1,52 @@
+---
+banitem:
+  438: Splash Potion
+  321: Painting
+  425: Armor Stand
+  401: Fireworks
+  384: Bottle o' Enchanting
+  441: Lingering Water Bottle
+  426: Ender Crystal
+  383: Spawn Egg
+  46: TNT
+pvp: false
+auth:
+  noobpvp2k3: noobpvp2k3
+bancmds:
+  /me: /me
+  /broadcast: /broadcast
+  /pocketmine:broadcast: /pocketmine:broadcast
+  /pocketmine:me: /pocketmine:me
+  /weather: /weather
+  /pocketmine:weather: /pocketmine:weather
+  /setvip: /setvip
+  /suicide: /suicide
+  /pocketmine:suicide: /pocketmine:suicide
+  /world: /world
+  /pocketmine:world: /pocketmine:world
+  /effect: /effect
+  /pocketmine:playsound: /pocketmine:playsound
+  /playsound: /playsound
+  /pocketmine:effect: /pocketmine:effect
+  /stop: /stop
+  /spawnpet: /spawnpet
+  /pocketmine:stop: /pocketmine:stop
+  /god: /god
+  /reload: /reload
+  /pocketmine:reload: /pocketmine:reload
+  /weapon: /weapon
+  /rca: /rca
+  /pocketmine:enchant: /pocketmine:enchant
+  /pocketmine:rca: /pocketmine:rca
+  /pocketmine:op: /pocketmine:op
+  /kill: /kill
+  /pocketmine:kill: /pocketmine:kill
+  /enchant: /enchant
+  /slapper: /slapper
+  /tp: /tp
+  /teleport: /teleport
+  /pocketmine:tp: /pocketmine:tp
+  /pocketmine:teleport: /pocketmine:teleport
+  /setuperm: /setuperm
+  //set: //set
+...

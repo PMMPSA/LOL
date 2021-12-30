@@ -1,0 +1,89 @@
+---
+datetime-format: "H:i:s"
+Motd:
+  update-timeout: 1
+  custom: true
+  message: "§l§6【§bSKY§a - §cLOL§6】"
+OutdatedClient:
+  custom: false
+  message: "&cYour MCPE client is outdated!"
+OutdatedServer:
+  custom: false
+  message: "&cOops! Server outdated!"
+WhitelistedServer:
+  custom: true
+  message: "&l&6[&c✱&6] &c SERVER BẢO TRÌ!"
+FullServer:
+  custom: true
+  message: "&e{PLAYER}&b, The Server is full &c[{TOTALPLAYERS}/{MAXPLAYERS}]&b!\n&l&dTry to join later :)"
+FirstJoin:
+  enable: true
+  message: "&l&e{PLAYER} &bGia Nhập Server Lần Đầu "
+Join:
+  hide: false
+  custom: true
+  message: "卐§7§l[§a+§7]§f {PLAYER}"
+Quit:
+  hide: false
+  custom: true
+  message: "卐§7§l[§c-§7]§f {PLAYER}"
+WorldChange:
+  enable: false
+  message: "&l&e【&d{PLAYER}&e】&f di chuyển từ &1{ORIGIN}&e tới &b{TARGET}"
+Death:
+  hide: false
+  custom: true
+  message: "&c➣ &f{PLAYER}&7 đã ra đi mãi mãi"
+  death-contact-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã bị chết bởi &c{BLOCK}"
+  kill-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã bị sát hại"
+  death-projectile-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 bị bắn headshot bởi &f{KILLER}"
+  death-suffocation-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã rìa đời do ko bít bơi"
+  death-fall-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã tự tử do bị gấu bỏ..."
+  death-fire-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 do trời quá nóng nên đã tắm trong lava"
+  death-on-fire-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã bị thiêu cháy"
+  death-lava-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 do trời quá nóng nên đã tắm trong lava"
+  death-drowning-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã rìa đời do ko bít bơi"
+  death-explosion-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã bị ăn c4"
+  death-void-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã lạc trôi vào vũ trụ"
+  death-suicide-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 Đang Thảm du"
+  death-magic-message:
+    hide: false
+    custom: true
+    message: "&c➣ &f{PLAYER}&7 đã chết do uống thuốc độc"
+...

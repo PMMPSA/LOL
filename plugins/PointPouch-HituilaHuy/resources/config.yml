@@ -1,0 +1,25 @@
+---
+messages:
+  chest:
+    name: "§r§l§6•>>§a Rương Point §6<<•"
+    lore: "\n§eCấp: {level}\n§6Ít nhất: §f{min}\n§6Nhiều nhất: §f{max}"
+  given: "§aBạn đã có được Rương Point !"
+  from: "§eBạn tặng {player} Rương Point {level}"
+  won: "§eBạn nhận được{amount} Point, xin chúc mừng !"
+tiers:
+  1:
+    min: 1
+    max: 10
+  2:
+    min: 5
+    max: 20
+  3:
+    min: 15
+    max: 30
+  4:
+    min: 25
+    max: 40
+  5:
+    min: 35
+    max: 50
+...

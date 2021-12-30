@@ -1,0 +1,9 @@
+name: AutoSell
+api: 3.8.2
+main: phuongaz\AutoSell\Main
+version: 1.0
+author: phuongaz
+commands:
+ autosell:
+   description: Tự động bán
+   default: true

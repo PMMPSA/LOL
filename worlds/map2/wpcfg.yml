@@ -1,0 +1,15 @@
+---
+protect: lock
+bancmds:
+  /fly: /fly
+  /gmc: /gmc
+  /gms: /gms
+  /gamemode: /gamemode
+  /1: /1
+  /0: /0
+  /sangtao: /sangtao
+  /sinhton: /sinhton
+  /tp: /tp
+  /s: /s
+  /c: /c
+...

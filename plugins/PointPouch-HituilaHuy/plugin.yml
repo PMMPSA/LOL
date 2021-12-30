@@ -1,0 +1,9 @@
+name: PointPouch
+version: 1.0.0
+api: 3.0.0
+main: PointPouch\Main
+author: HituilaHuy
+
+commands:
+  givepp:
+    description: "Lấy Rương Quay Point"

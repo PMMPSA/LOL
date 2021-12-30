@@ -1,0 +1,9 @@
+name: AuctionHouse
+main: LS\AuctionHouse\Main
+api: [3.0.0]
+version: 1.0
+author: LegendSound
+
+commands:
+ daugia:
+  description: "Chợ Tự Do"

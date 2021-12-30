@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Muqsit/PlayerVaults
+branches:
+- master
+projects:
+  PlayerVaults:
+    path: ""
+    libs:
+      - src: muqsit/InvMenu/InvMenu
+        version: ^3.1.0
+      - src: poggit/libasynql/libasynql
+        version: ^3.1.1
+...

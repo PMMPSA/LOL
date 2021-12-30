@@ -1,0 +1,80 @@
+# - Rank Cost Configuration -
+
+group1.cost: 20
+group2.cost: 50
+group3.cost: 100
+group4.cost: 250
+group5.cost: 500
+group6.cost: 700
+
+# -= Rank Purchase / Fail Configuration =-
+
+group1.complete: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §dVip§6I
+group1.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không đủ point để mua §dVip§6I
+
+group2.complete: §l§6[§bSky§aBlock(Bin)§6] §Bạn đã mua §dVip§6II
+group2.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không Point để mua §dVip§6II
+
+
+group3.complete: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua mua §eVip§III
+group3.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không đủ Point để mua §dVip§6III
+
+group4.complete: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §dVip§6IV
+group4.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không đủ Point để mua §dVip§6IV
+
+group5.complete: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §aRich§cKid
+group5.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không đủ Point để mua §aRich§cKid
+
+group6.complete: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §cMa§bst§aer
+group6.failed: §l§6[§bSky§aBlock(Bin)§6] §cBạn không đủ Point để mua §cMa§bst§aer
+
+# -= Content Configuration -=
+
+group1.info: §l§3● §aMua §dVip§6I §aVới Giá §c20$ Point
+group2.info: §l§3● §aMua §dVip§6II §aVới Giá §c50$ Point
+group3.info: §l§3● §aMua §dVip§6III §aVới Giá §c100$ Point
+group4.info: §l§3● §aMua §dVip§6IV §aVới Giá §c250$ Point
+group5.info: §l§3● §aMua §aRich§cKid §aVới Giá §c500$ Point
+group6.info: §l§3● §aMua §cMa§bst§aer §aVới Giá §c700$ Point
+
+# -= Others Configuration =-
+ 
+title.muarank: §l§b♦ §6Mua§a Rank §b♦
+
+othermsg1complete.txt: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §dVip§6I
+othermsg2complete.txt: §l§6[§bSky§aBlock(Bin)§6] §Bạn đã mua §dVip§6II
+othermsg3complete.txt: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua mua §eVip§III
+othermsg4complete.txt: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §dVip§6IV
+othermsg5complete.txt: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §aRich§cKid
+othermsg6complete.txt: §l§6[§bSky§aBlock(Bin)§6] §aBạn đã mua §cMa§bst§aer
+
+othermsg1fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §dVip§6I
+othermsg2fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §dVip§6II
+othermsg3fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §dVip§6III
+othermsg4fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §dVip§6IV
+othermsg5fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §aRich§cKid
+othermsg6fail.txt: §l§6[§bSky§aBlock(Bin)§6] §eBạn Không Mua Được §cMa§bst§aer
+
+purchase1.title: §l§b♦§a Mua Thành Công §l§b♦
+purchase2.title: §l§b♦§a Mua Thành Công §l§b♦
+purchase3.title: §l§b♦§a Mua Thành Công §l§b♦
+purchase4.title: §l§b♦§a Mua Thành Công §l§b♦
+purchase5.title: §l§b♦§a Mua Thành Công §l§b♦
+purchase6.title: §l§b♦§a Mua Thành Công §l§b♦
+
+group1.name: ●§l§9Vip 1§f -§9 5 Ngày§r●
+group2.name: ●§l§9Vip 2§f -§9 10 Ngày§r●
+group3.name: ●§l§9Vip 3§f -§9 15 Ngày§r●
+group4.name: ●§l§9Vip 4§f -§9 20 Ngày§r●
+group5.name: ●§l§aRich§cKid §f-§9 30 Ngày§r●
+group6.name: ●§l§cMa§bst§aer §f-§9 40 Ngày§r●
+# Features Configuration
+# Shows a list of features of the rank. Edit it here
+
+group1.features:
+group2.features:
+group3.features:
+group4.features: 
+group5.features:
+
+...

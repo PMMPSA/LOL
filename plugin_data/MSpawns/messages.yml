@@ -1,0 +1,14 @@
+---
+#Hub message
+hub-message: "§l§eChào mừng §b{PLAYER}§e đến hub!"
+#No hub message
+no-hub: "{PREFIX} &cNo hub set"
+#Spawn message
+spawn-message: "§l§6[§bSky§aBlock(Bin)§6] §eDịch chuyển đến khu spawn"
+#No spawn message
+no-spawn: "§l§6[§bSky§aBlock(Bin)§6] §eKhông có spawn ở thế giới này!"
+#Invalid world
+invalid-world: "{PREFIX} &cWorld not found"
+#Spawn aliases disabled
+aliases-disabled: "{PREFIX} &cSpawn aliases are disabled on this server"
+...

@@ -1,0 +1,44 @@
+---
+name: EconomyAPI
+main: onebone\economyapi\EconomyAPI
+api:
+- 3.0.0
+version: 5.7.2
+author: onebone
+permissions:
+  economyapi.*:
+    default: op
+    description: Allows to control all of functions in EconomyAPI
+    children:
+      economyapi.command.*:
+        default: op
+        description: Allows to use all of commands in EconomyAPI
+        children:
+          economyapi.command.setmoney:
+            default: op
+            description: Allows to set player's money
+          economyapi.command.mymoney:
+            description: Xem số xu của bạn!
+            default: true
+          economyapi.command.givemoney:
+            description: Allows player to give money to others
+            default: op
+          economyapi.command.pay:
+            description: Cho người chơi khác xu của bạn!
+            default: true
+          economyapi.command.seemoney:
+            description: Xem số xu của người chơi khác
+            default: true
+          economyapi.command.setlang:
+            description: Allows player to set his/her language
+            default: true
+          economyapi.command.topmoney:
+            description: Bảng xếp hạng xu của server!
+            default: true
+          economyapi.command.mystatus:
+            description: Hiển thị trạng thái của bạn!
+            default: true
+          economyapi.command.takemoney:
+            description: Allows player to take money from others
+            default: op
+...

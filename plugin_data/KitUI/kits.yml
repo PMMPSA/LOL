@@ -1,0 +1,224 @@
+---
+v1:
+  # Format: "id:damage:count:name:ench_name:ench_level"
+
+  # If you want only custom name (no enchantments): "id:damage:count:name"
+
+  # If you don't want enchantments or custom name: "id:damage:count"
+
+  # If you want only enchantments (no custom name): "id:damage:count:DEFAULT:ench_name:ench_level" -- you have to put DEFAULT in the name field
+
+  # If you want more than one enchantment just do: "id:damage:count:name:ench1_name:ench1_level:ench2_name:ench2_level"
+  # or "id:damage:count:DEFAULT:ench1_name:ench1_level:ench2_name:ench2_level" if you don't want a custom item name
+
+  # Please note: You have to write numeric IDs
+  items:
+  - "279:0:1:§l§b♦ §cRìu §dVip§6I §b♦§r:haste:1:efficiency:10:unbreaking:10"
+  - "278:0:1:§l§b♦ §cCúp §dVip§6I §b♦§r:haste:1:efficiency:10:fortune:10:unbreaking:10"
+  - "276:0:1:§l§b♦ §cKiếm §dVip§6I §b♦§r:wither:1:poison:1:sharpness:10:knockback:2:fire_aspect:2:unbreaking:10"
+  - "261:0:1:§l§b♦ §cCung §dVip§6I §b♦§r:poison:1:wither:1:power:10:punch:2:flame:2:unbreaking:10"
+  helmet: "310:0:1:§l§b♦ §cNón §dVip§6I §b♦§r:hardened:1:obsidianshield:1:tank:1:heavy:1:protection:10:thorns:5:fire_protection:5:unbreaking:10"
+  chestplate: "311:0:1:§l§b♦ §cAó §dVip§6I §b♦§r:hardened:1:obsidianshield:1:tank:1:heavy:1:protection:10:thorns:5:fire_protection:5:unbreaking:10"
+  leggings: "312:0:1:§l§b♦ §cQuần §dVip§6I §b♦§r:hardened:1:obsidianshield:1:tank:1:heavy:1:protection:10:thorns:5:fire_protection:5:unbreaking:10"
+  boots: "313:0:1:§l§b♦ §cGiày §dVip§6I §b♦§r:hardened:1:obsidianshield:1:tank:1:heavy:1:protection:10:thorns:5:fire_protection:5:unbreaking:10"
+
+  commands: # {player} will get replaced by player's name
+  - "tell {player} §l§eBạn đã nhận được kit VipI"
+
+  cooldown:
+    hours: 168
+    minutes: 0
+
+  # Format: "name:time:amplifier"
+  # Time is in seconds
+  effects:
+  
+  #Kit name to show on the menu, you can use color symbol '§'
+  kit-name: "§l§b♦ §dVip§6I §b♦ §6│ §2DONATOR"
+
+  # Add a cost for the kit. Compatible with EconomyAPI only
+  # Put 0 if you want the kit to be free
+  money: 0
+  
+  #Enter image url for the kit. png image. The image will be shown in kit main menu if its compatible.
+  image-url: ""
+
+  # Info to show when selected a Kit in UI form
+  info: "§l§e Kit Này Chỉ Giành Cho Vip"
+v2:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §dVip§6II §b♦§r:haste:2:efficiency:10:unbreaking:10"
+  - "278:0:1:§l§b♦ §cCúp §dVip§6II §b♦§r:haste:2:efficiency:10:fortune:10:unbreaking:10"
+  - "276:0:1:§l§b♦ §cKiếm §dVip§6II §b♦§r:wither:2:poison:2:sharpness:10:knockback:2:fire_aspect:2:unbreaking:10"
+  - "261:0:1:§l§b♦ §cCung §dVip§6II §b♦§r:poison:2:wither:2:power:10:punch:2:flame:2:unbreaking:10"
+  helmet: "310:0:1:§l§b♦ §cNón §dVip§6II §b♦§r:hardened:2:obsidianshield:2:tank:2:heavy:2:protection:10:thorns:10:fire_protection:10:unbreaking:10"
+  chestplate: "311:0:1:§l§b♦ §cAó §dVip§6II §b♦§r:hardened:2:obsidianshield:2:tank:2:heavy:2:protection:10:thorns:10:fire_protection:10:unbreaking:10"
+  leggings: "312:0:1:§l§b♦ §cQuần §dVip§6II §b♦§r:hardened:2:obsidianshield:2:tank:2:heavy:2:protection:10:thorns:10:fire_protection:10:unbreaking:10"
+  boots: "313:0:1:§l§b♦ §cGiày §dVip§6II §b♦§r:hardened:2:obsidianshield:2:tank:2:heavy:2:protection:10:thorns:10:fire_protection:10:unbreaking:10"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit VipII"
+
+  cooldown:
+    hours: 336
+    minutes: 0
+
+  effects:
+  
+  kit-name: "§l§b♦ §dVip§6II §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho Vip"
+  
+v3:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §dVip§6III §b♦§r:haste:3:efficiency:20:unbreaking:20"
+  - "278:0:1:§l§b♦ §cCúp §dVip§6III §b♦§r:haste:3:efficiency:20:fortune:20:unbreaking:20"
+  - "276:0:1:§l§b♦ §cKiếm §dVip§6III §b♦§r:wither:3:poison:3:backstab:1:sharpness:20:knockback:2:fire_aspect:2:unbreaking:20"
+  - "261:0:1:§l§b♦ §cCung §dVip§6III §b♦§r:paralyze:1:wither:3:poison:3:power:20:punch:2:flame:2:unbreaking:20"
+  helmet: "310:0:1:§l§b♦ §cNón §dVip§6III §b♦§r:hardened:3:obsidianshield:3:tank:3:heavy:3:protection:20:thorns:15:fire_protection:15:unbreaking:20"
+  chestplate: "311:0:1:§l§b♦ §cAó §dVip§6III §b♦§r:hardened:3:obsidianshield:3:tank:3:heavy:3:protection:20:thorns:15:fire_protection:15:unbreaking:20"
+  leggings: "312:0:1:§l§b♦ §cQuần §dVip§6III §b♦§r:hardened:3:obsidianshield:3:tank:3:heavy:3:protection:20:thorns:15:fire_protection:15:unbreaking:20"
+  boots: "313:0:1:§l§b♦ §cGiày §dVip§6III §b♦§r:hardened:3:obsidianshield:3:tank:3:heavy:3:protection:20:thorns:15:fire_protection:15:unbreaking:20"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit VipIII"
+
+  cooldown:
+    hours: 648
+    minutes: 0
+
+  effects:
+
+  kit-name: "§l§b♦ §dVIP§6III §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho Vip"
+v4:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §dVip§6IV §b♦§r:haste:4:efficiency:20:unbreaking:20"
+  - "278:0:1:§l§b♦ §cCúp §dVip§6IV §b♦§r:haste:4:efficiency:20:fortune:20:unbreaking:20"
+  - "276:0:1:§l§b♦ §cKiếm §dVip§6IV §b♦§r:wither:4:poison:4:backstab:2:sharpness:20:knockback:2:fire_aspect:2:unbreaking:20"
+  - "261:0:1:§l§b♦ §cCung §dVip§6IV §b♦§r:paralyze:2:wither:4:poison:4:power:20:punch:2:flame:2:unbreaking:20"
+  helmet: "310:0:1:§l§b♦ §cNón §dVip§6IV §b♦§r:hardened:4:obsidianshield:4:tank:4:heavy:4:protection:20:thorns:20:fire_protection:20:unbreaking:20"
+  chestplate: "311:0:1:§l§b♦ §cAó §dVip§6IV §b♦§r:hardened:4:obsidianshield:4:tank:4:heavy:4:protection:20:thorns:20:fire_protection:20:unbreaking:20"
+  leggings: "312:0:1:§l§b♦ §cQuần §dVip§6IV §b♦§r:hardened:4:obsidianshield:4:tank:4:heavy:4:protection:20:thorns:20:fire_protection:20:unbreaking:20"
+  boots: "313:0:1:§l§b♦ §cGiày §dVip§6IV §b♦§r:hardened:4:obsidianshield:4:tank:4:heavy:4:protection:20:thorns:20:fire_protection:20:unbreaking:20"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit VipIV!"
+
+  cooldown:
+    hours: 720
+    minutes: 0
+
+  effects:
+
+  kit-name: "§l§b♦ §dVIP§6IV §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho Vip"
+richkid:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §aRichKid§bKid §b♦§r:haste:5:efficiency:30:unbreaking:30"
+  - "278:0:1:§l§b♦ §cCúp §aRichKid§bKid §b♦§r:haste:5:efficiency:30:fortune:30:unbreaking:30"
+  - "276:0:1:§l§b♦ §cKiếm §aRichKid§bKid §b♦§r:wither:5:poison:5:backstab:3:deathbringer:1:sharpness:30:knockback:2:fire_aspect:2:unbreaking:30"
+  - "261:0:1:§l§b♦ §cCung §aRichKid§bKid §b♦§r:paralyze:4:shuffle:1:wither:5:poison:5:power:30:punch:2:flame:2:unbreaking:30:infinity:1"
+  helmet: "310:0:1:§l§b♦ §cNón §aRichKid§bKid §b♦§r:hardened:5:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:25:fire_protection:25:unbreaking:30"
+  chestplate: "311:0:1:§l§b♦ §cAó §aRichKid§bKid §b♦§r:hardened:5:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:25:fire_protection:25:unbreaking:30"
+  leggings: "312:0:1:§l§b♦ §cQuần §aRichKid§bKid §b♦§r:hardened:5:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:25:fire_protection:25:unbreaking:30"
+  boots: "313:0:1:§l§b♦ §cGiày §aRichKid§bKid §b♦§r:hardened:5:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:25:fire_protection:25:unbreaking:30"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit §aRichKid§bKid!"
+
+  cooldown:
+    hours: 720
+    minutes: 0
+
+  effects:
+
+  kit-name: "§l§b♦ §aRichKid§bKid §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho Vip"
+master:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §cMa§bst§aer §b♦§r:haste:5:efficiency:30:unbreaking:30"
+  - "278:0:1:§l§b♦ §cCúp §cMa§bst§aer §b♦§r:haste:5:efficiency:30:fortune:30:unbreaking:30"
+  - "276:0:1:§l§b♦ §cKiếm §cMa§bst§aer §b♦§r:gooey:1:lightning:1:vampire:1:wither:5:poison:5:backstab:4:deathbringer:1:sharpness:30:knockback:2:fire_aspect:2:unbreaking:30"
+  - "261:0:1:§l§b♦ §cCung §cMa§bst§aer §b♦§r:lightning:1:paralyze:4:shuffle:1:wither:5:poison:5:power:30:punch:2:flame:2:unbreaking:30:infinity:1"
+  helmet: "310:0:1:§l§b♦ §cNón §cMa§bst§aer §b♦§r:hardened:5:cursed:2:enlighted:2:forcefield:1:antiknockback:1:frozen:1:cactus:1:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:30:fire_protection:30:unbreaking:30"
+  chestplate: "311:0:1:§l§b♦ §cAó §cMa§bst§aer §b♦§r:hardened:5:cursed:2:shielded:1:enlighted:2:antiknockback:1:frozen:1:cactus:1:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:30:fire_protection:30:unbreaking:30"
+  leggings: "312:0:1:§l§b♦ §cQuần §cMa§bst§aer §b♦§r:hardened:5:cursed:2:shielded:1:enlighted:2:antiknockback:1:frozen:1:cactus:1:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:30:fire_protection:30:unbreaking:30"
+  boots: "313:0:1:§l§b♦ §cGiày §cMa§bst§aer §b♦§r:hardened:5:cursed:2:enlighted:2:antiknockback:1:frozen:1:cactus:1:obsidianshield:5:tank:5:heavy:5:protection:30:thorns:30:fire_protection:30:unbreaking:30"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit §cMa§bst§aer!"
+
+  cooldown:
+    hours: 1440
+    minutes: 0
+
+  effects:
+
+  kit-name: "§l§b♦ §cMa§bst§aer §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho Vip"
+angelkid:
+
+  items:
+  - "279:0:1:§l§b♦ §cRìu §dAngel§cKid §b♦§r:haste:5:efficiency:40:unbreaking:40"
+  - "278:0:1:§l§b♦ §cCúp §dAngel§cKid §b♦§r:jackpot:5:haste:5:efficiency:40:fortune:40:unbreaking:40"
+  - "276:0:1:§l§b♦ §cKiếm §dAngel§cKid §b♦§r:gooey:2:lightning:2:vampire:1:wither:5:poison:5:backstab:5:deathbringer:1:sharpness:40:knockback:4:fire_aspect:4:unbreaking:40"
+  - "261:0:1:§l§b♦ §cCung §dAngel§cKid §b♦§r:volley:1:lightning:2:wither:5:poison:5:power:40:punch:4:flame:4:unbreaking:40:infinity:2"
+  helmet: "310:0:1:§l§b♦ §cNón §dAngel§cKid §b♦§r:hardened:5:cursed:4:armored:1:berserker:2:antiknockback:1:shielded:3:enlighted:4:forcefield:1:frozen:2:cactus:1:obsidianshield:5:tank:4:heavy:4:protection:40:thorns:50:fire_protection:50:unbreaking:40"
+  chestplate: "311:0:1:§l§b♦ §cAó §dAngel§cKid §b♦§r:hardened:5:cursed:4:armored:1:berserker:2:antiknockback:1:shielded:3:enlighted:4:frozen:2:cactus:1:obsidianshield:5:tank:4:heavy:4:protection:40:thorns:50:fire_protection:50:unbreaking:40"
+  leggings: "312:0:1:§l§b♦ §cQuần §dAngel§cKid §b♦§r:hardened:5:cursed:4:armored:1:berserker:2:antiknockback:1:shielded:3:enlighted:4:frozen:2:cactus:1:obsidianshield:5:tank:4:heavy:4:protection:40:thorns:50:fire_protection:50:unbreaking:40"
+  boots: "313:0:1:§l§b♦ §cGiày §dAngel§cKid §b♦§r:hardened:5:cursed:4:armored:1:berserker:2:gears:2:antiknockback:1:shielded:3:enlighted:4:frozen:2:forcefield:1:cactus:1:obsidianshield:5:tank:4:heavy:4:protection:40:thorns:50:fire_protection:50:unbreaking:40"
+
+  commands:
+  - "tell {player} §l§eBạn đã nhận được kit §dAngel§cKid!"
+
+  cooldown:
+    hours: 720
+    minutes: 0
+
+  effects:
+
+  kit-name: "§l§b♦ §dAngel§cKid §b♦ §6│ §2DONATOR"
+
+  money: 0
+  
+  
+  image-url: ""
+
+  info: "§l§6 Kit Này Chỉ Giành Cho §dAngel§cKid"
+  
+  permission: "kit.angelkid"
+...

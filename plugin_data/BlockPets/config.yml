@@ -1,0 +1,77 @@
+---
+# Configuration file for BlockPets, a pets plugin by BlockHorizons.
+
+# The language to be used in messages in this plugin.
+# Available options:
+# - en (English)
+# - nl (Dutch)
+# - vi (Vietnamese)
+# - gr (Greek)
+# - ko (Korean)
+# - cht (繁體中文)
+# - chs (简体中文)
+Language: vi
+
+# Cho dù làm cho vật nuôi trở nên bất khả xâm phạm đối với bất kỳ thiệt hại, hoặc cho phép làm hỏng chúng.
+Invulnerable-Pets: false
+
+# Có nên theo dõi trực tiếp người chơi hay tìm kiếm các vị trí ngẫu nhiên gần người chơi.
+Stalk-Owner-Blindly: false
+
+# Có nên làm cho thú cưng trở nên bất khả xâm phạm nếu chủ nhân của nó có hay không.
+Invulnerable-If-Owner-Is: true
+
+# Thời gian tính bằng giây để chờ đợi trước khi sinh ra một con thú cưng đã chết trước đó.
+Pet-Respawn-Time: 10
+
+# Liệu làm cho vật nuôi tấn công người tấn công chúng hoặc chủ sở hữu của chúng.
+Attacking-Pets: true
+
+# Giới hạn của vật nuôi trên mỗi người chơi theo mặc định.
+Pet-Limit: 3
+
+# Sức khỏe cơ bản một thú cưng sẽ được sinh ra. Điều này tương đương với sức khỏe của thú cưng với cấp độ 0.
+Pet-Base-Health: 20
+
+# Sức khỏe được thêm vào mỗi cấp độ vật nuôi được.
+Pet-Per-Level-Health: 0.5
+
+# Kích thước được thêm vào mỗi cấp độ vật nuôi được.
+Pet-Per-Level-Size: 0.02
+
+# Sứa mạnh mặc dình của thú cưng
+Pet-Base-Damage: 4
+
+# Các thiệt hại được thêm vào mỗi cấp độ vật nuôi nhận được.
+Pet-Per-Level-Damage: 0.1
+
+# Trải nghiệm thú cưng nhận được mỗi khi nó giết chết người chơi.
+Experience-Points-Per-Player-Kill: 15
+
+# The experience a pet gets each time it kills an entity.
+Experience-Points-Per-Entity-Kill: 10
+
+# Có nên cho thú cưng một số kinh nghiệm nếu nó được chủ cho ăn hay không.
+Give-Experience-For-Feeding: true
+
+# The database used to store data of pets in. This is only relevant if storage to database is turned to true.
+# Options:
+# - MySQL
+# - SQLite
+Database: SQLite
+
+# MySQL information. This is only relevant if database above is set to MySQL.
+MySQL-Info:
+  Host: 127.0.0.1
+  User: Admin
+  Password: Admin
+  Database: BlockPets
+  Port: 3306
+
+# Whether to store pet data to the database set above or not.
+Store-To-Database: true
+
+# WARNING: This will delete all pets and pet data the next restart if set to true.
+# Use with caution!
+Hard-Reset: false
+...

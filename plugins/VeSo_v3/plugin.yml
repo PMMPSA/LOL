@@ -1,0 +1,13 @@
+name: VeSo
+main: AmGM\QT1
+version: 3
+author: AmGM
+api: 3.0.0
+commands:
+  veso:
+    description: Quay Vé Số
+    permission: veso.command
+permissions:
+  veso.command:
+    default: true
+    description: Cho Phép Người Chơi Quay Vé Số

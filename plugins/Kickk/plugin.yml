@@ -1,0 +1,9 @@
+name: Kickk
+author:  MCPEVN-TEAM
+version: 1.1
+api: 3.0.0
+main: MCPEVN\Kickk
+commands: 
+    kickk:
+        description: Lệnh Kick Độc Quyền Cho AngelKid!
+

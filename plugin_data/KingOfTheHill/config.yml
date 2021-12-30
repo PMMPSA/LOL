@@ -1,0 +1,24 @@
+---
+capture_time: 250
+player-creation: true
+game_time: 30
+event_time: 21600
+reset_capture_progress: true
+prefix: '§l§6● '
+starting: §l§eTrò chơi sẽ bắt đầu trong§c {sec} §egiây. §bTham gia trò chơi ngay!§d (/koth join)
+begin: §l§aKoth đã bắt đầu!§d (/koth join)
+joined: §l§eĐã tham gia trò chơi thành công!, Hãy là người đầu tiên chiếm được khu vực này ngay bây giờ!
+win: '§l§b{player} §ađã chiến thắng sự kiện koth!'
+end: §l§eSự kiện đã kết thúc!
+not_running: §l§eKhông có sự kiện koth nào vào lúc này!!
+still_running_title: §l§aSự kiện koth đã bắt đầu!
+still_running_sub: §l§eTham gia sự kiện với lệnh§b /koth join !
+progress: §l§aChiếm...§c {percent}%
+end_game: §l§eSự kiện kết thúc!
+game_bar: '§l§aThời Gian Còn Lại:§c {time}'
+rewards:
+- givemoney {player} 200000
+- key weapons {player} 2
+- key hextech {player} 1
+- key legend {player} 1
+...

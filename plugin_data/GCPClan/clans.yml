@@ -1,0 +1,24 @@
+---
+TrùmServer:
+  motd: TrùmServer
+  level: 5
+  point: 8005
+  members:
+    tuilachimbe: 3
+    sabo_gaming_phs: 1
+  request: []
+§l§cSo§6¤§bSad:
+  motd: §l§cSo§6¤§bSad
+  level: 1
+  point: 0
+  members:
+    borealprince88: 3
+  request: []
+Super:
+  motd: Super
+  level: 1
+  point: 0
+  members:
+    richhaogaming: 3
+  request: []
+...

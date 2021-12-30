@@ -1,0 +1,10 @@
+name: DanhHieu
+api: [3.0.0]
+main: padreon\TittleADR\Main
+version: 3.0.0
+author: padreon
+commands:
+  danhhieu:
+    default: true
+    permission: player.tags.ui
+    description: "Mở Giao Diện Danh Hiệu"

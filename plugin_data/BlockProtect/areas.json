@@ -1,0 +1,97 @@
+{
+    "1": {
+        "pos1": [
+            "290",
+            "100",
+            "281"
+        ],
+        "pos2": [
+            "287",
+            "68",
+            "236"
+        ],
+        "world": "mine",
+        "pvp": "off",
+        "edit": "off",
+        "touch": "off",
+        "players": [
+            "RichHaoGaming"
+        ]
+    },
+    "2": {
+        "pos1": [
+            "286",
+            "100",
+            "236"
+        ],
+        "pos2": [
+            "245",
+            "66",
+            "239"
+        ],
+        "world": "mine",
+        "pvp": "off",
+        "edit": "off",
+        "touch": "off",
+        "players": [
+            "RichHaoGaming"
+        ]
+    },
+    "3": {
+        "pos1": [
+            "245",
+            "100",
+            "240"
+        ],
+        "pos2": [
+            "248",
+            "65",
+            "281"
+        ],
+        "world": "mine",
+        "pvp": "off",
+        "edit": "off",
+        "touch": "off",
+        "players": [
+            "RichHaoGaming"
+        ]
+    },
+    "4": {
+        "pos1": [
+            "249",
+            "100",
+            "281"
+        ],
+        "pos2": [
+            "286",
+            "100",
+            "278"
+        ],
+        "world": "mine",
+        "pvp": "off",
+        "edit": "off",
+        "touch": "off",
+        "players": [
+            "RichHaoGaming"
+        ]
+    },
+    "5": {
+        "pos1": [
+            "290",
+            "72",
+            "278"
+        ],
+        "pos2": [
+            "249",
+            "100",
+            "281"
+        ],
+        "world": "mine",
+        "pvp": "off",
+        "edit": "off",
+        "touch": "off",
+        "players": [
+            "RichHaoGaming"
+        ]
+    }
+}

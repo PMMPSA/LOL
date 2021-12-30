@@ -1,0 +1,42 @@
+---
+richhaogaming:
+  jailed: false
+  VoteForJail:
+    votes: 1
+    votedBy:
+    - bidiedart
+  uuid: 90082a3b-8860-3673-be98-a87e28727aca
+bidiedart:
+  jailed: false
+  VoteForJail:
+    votes: 1
+    votedBy:
+    - richhaogaming
+  uuid: 16b07255-ce63-32c8-b838-f7939703ac63
+tuilachimbe:
+  jailed: false
+  VoteForJail:
+    votes: 0
+    votedBy: []
+  uuid: cfb50579-6655-3718-a5da-23110aed7240
+dzsenpai:
+  jailed: false
+  VoteForJail:
+    votes: 0
+    votedBy: []
+  uuid: 1b2edae2-8c9c-3912-a64b-5720c1befe72
+richhaogaming2:
+  jailed: false
+  gamemode: 0
+  VoteForJail:
+    votes: 0
+    votedBy: []
+  uuid: 52817868-2669-3311-8ecd-a5c8dd3fefa1
+noobpvp2k3:
+  jailed: false
+  gamemode: 0
+  VoteForJail:
+    votes: 0
+    votedBy: []
+  uuid: e1ffd2ea-24a1-3525-8e93-fa472047418a
+...

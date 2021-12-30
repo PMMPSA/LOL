@@ -1,0 +1,5 @@
+---
+bancmds:
+  /stop: /stop
+  /reload: /reload
+...

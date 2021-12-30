@@ -1,0 +1,95 @@
+---
+#Dont Change this
+version: "0.4"
+#EnchantUI Version 0.4
+Title: "§l§b♦ §aBuyEnchant§c §cShop §b♦"
+Button: "§l§e●§9 {NAME} §e●"
+slider-title: "§l§3●§a Cấp độ"
+messages:
+  label: "§l§3●§a Bạn phải trả§b {PRICE} §aXu§e cho mỗi một cấp độ"
+  not-enough-money: "§l§6[§bLOL§6]§c Bạn không có đủ tiền!"
+  paid-success: "§l§6[§bLOL§6]§a Bạn đã phù phép thành công§e {NAME} §acấp§e {LEVEL} §avới giá§e {PRICE} Xu"
+  hold-item: "§l§6[§bLOL§6]§c Vui lòng cầm đồ vật có thể phù phép"
+  no-perm: "§l§6[§bLOL§6]§c Bạn không có quyền để thực hiện lệnh này"
+shop:
+- name: Fire Protection
+  enchantment: fire_protection
+  price: 1000
+  max-level: 5
+- name: Protection
+  enchantment: 1
+  price: 1000
+  max-level: 5
+- name: Projectile Protection
+  enchantment: 4
+  price: 1000
+  max-level: 5
+- name: Thorns
+  enchantment: thorns
+  price: 1000
+  max-level: 5
+- name: Blast Protection
+  enchantment: 3
+  price: 1000
+  max-level: 5
+- name: Respiration
+  enchantment: respiration
+  price: 1000
+  max-level: 5
+- name: Feather Falling
+  enchantment: 2
+  price: 1000
+  max-level: 5
+- name: Sharpness
+  enchantment: sharpness
+  price: 1000
+  max-level: 5
+- name: Knockback
+  enchantment: knockback
+  price: 1000
+  max-level: 5
+- name: Fire Aspect
+  enchantment: 13
+  price: 1000
+  max-level: 5
+- name: Power
+  enchantment: 19
+  price: 1000
+  max-level: 5
+- name: Punch
+  enchantment: 20
+  price: 1000
+  max-level: 5
+- name: Flame
+  enchantment: 21
+  price: 1000
+  max-level: 5
+- name: infinity
+  enchantment: 22
+  price: 1000
+  max-level: 5
+- name: Fortune
+  enchantment: 18
+  price: 3000
+  max-level: 5 
+- name: Efficiency
+  enchantment: 15
+  price: 1000
+  max-level: 5
+- name: Silk Touch
+  enchantment: 16
+  price: 1000
+  max-level: 5
+- name: Lure
+  enchantment: 24
+  price: 1000
+  max-level: 5
+- name: Unbreaking
+  enchantment: 17
+  price: 1000
+  max-level: 5
+- name: Mending
+  enchantment: 26
+  price: 1000
+  max-level: 5
+...

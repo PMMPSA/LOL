@@ -1,0 +1,9 @@
+name: CachMuaLand
+main: land\noob\mualand
+api: 3.1.1
+version: 1.2
+author: Noob
+commands:
+ huongdan:
+  description: "Hướng Dẫn Cách Chơi"
+  default: true

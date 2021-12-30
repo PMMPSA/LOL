@@ -1,0 +1,9 @@
+name: DeTuMF
+version: 3.0.0
+api: 3.0.0
+main: CLADevs\Minion\Main
+author: CLADevs And Shin1134
+
+commands:
+  detu:
+    description: "Mở giao diện đệ tử"

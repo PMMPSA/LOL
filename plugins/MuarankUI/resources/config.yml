@@ -1,0 +1,72 @@
+# - Rank Cost Configuration -
+
+group1.cost: 40
+group2.cost: 80
+group3.cost: 140
+group4.cost: 200
+group5.cost: 1000
+
+# -= Rank Purchase / Fail Configuration =-
+
+group1.complete: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §aBạn đã mua §dVip§6I
+group1.failed: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §cBạn không đủ Coin để mua §dVip§6I
+
+group2.complete: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §Bạn đã mua §dVip§6II
+group2.failed: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §cBạn không Coin để mua §dVip§6II
+
+
+group3.complete: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §aBạn đã mua §eVip§III
+group3.failed: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §cBạn không đủ Coin để mua §dVip§6III
+
+group4.complete: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §aBạn đã mua §dVip§6IV
+group4.failed: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §cBạn không đủ Coin để mua §dVip§6IV
+
+group5.complete: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §aBạn đã mua §aRich§cKid
+group5.failed: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §cBạn không đủ Coin để mua §aRich§cKid
+
+# -= Content Configuration -=
+
+group1.info: §l§3● §aMua §dVip§61 §aVới Giá §c40$ Coin
+group2.info: §l§3● §aMua §dVip§62 §aVới Giá §c80$ Coin
+group3.info: §l§3● §aMua §dVip§63 §aVới Giá §c140$ Coin
+group4.info: §l§3● §aMua §dVip§64 §aVới Giá §c200$ Coin
+group5.info: §l§3● §aMua §aRich§cKid §aVới Giá §c1000$ Coin
+
+# -= Others Configuration =-
+ 
+title.muarank: §l§b♦ §6Mua§a Rank §b♦
+
+othermsg1complete.txt: §dVip§6I
+othermsg2complete.txt: §dVip§6II
+othermsg3complete.txt: §dVip§6III
+othermsg4complete.txt: §dVip§6IV
+othermsg5complete.txt: §dVip§dV
+
+othermsg1fail.txt: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §eBạn Không Mua Được §dVip§6I
+othermsg2fail.txt: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §eBạn Không Mua Được §dVip§6II
+othermsg3fail.txt: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §eBạn Không Mua Được §dVip§6III
+othermsg4fail.txt: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §eBạn Không Mua Được §dVip§6IV
+othermsg5fail.txt: §l§6[§bSky§aBlock(§aL§cO§aL)§6] §eBạn Không Mua Được §aRich§cKid
+
+purchase1.title: Buyed
+purchase2.title: Buyed
+purchase3.title: Buyed
+purchase4.title: Buyed
+purchase5.title: Buyed
+
+group1.name: §l§c♝ §dVip§6I §c♝
+group2.name: §l§c♝ §dVip§6II §c♝
+group3.name: §l§c♝ §dVip§6III §c♝
+group4.name: §l§c♝ §dVip§6IV §c♝
+group5.name: §l§c♝ §aRich§cKid §c♝
+
+# Features Configuration
+# Shows a list of features of the rank. Edit it here
+
+group1.features: Fly
+group2.features: Fly
+group3.features: Fly
+group4.features: Fly 
+group5.features: Fly
+
+...

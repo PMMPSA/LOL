@@ -1,0 +1,52 @@
+---
+version: 1.4.0
+default-factions-plugin: FactionsPro
+groups:
+  Helper:
+    nametag: §4§l•§c⊰⊹§d§lHelper§c⊹⊱§4• §6【{prefix}§6】 §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §4§l•§c⊰⊹§d§lHelper§c⊹⊱§4• §6【{prefix}§6】 §r{display_name}
+      §c»§l§a{msg}§r§c«
+  Police:
+    nametag: §4§l•§c⊰⊹§l§ePolice§c⊹⊱§4• §6【{prefix}§6】 §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §4§l•§c⊰⊹§l§ePolice§c⊹⊱§4• §6【{prefix}§6】 §r{display_name}
+      §c»§a§l{msg}§r§c«
+  Member:
+    nametag: §4§l•§c⊰⊹§rMember§l§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §7§l•§rMember§l§7• §6|{prefix}§6| §r{display_name}§c
+      »§r{msg}§c«
+  Admin:
+    nametag: §4§l•§c⊰⊹§1§lAdmin§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §4§l•§c⊰⊹§1§lAdmin§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+      §c»§a§l{msg}§r§c«
+  Op:
+    nametag: §4§l•§c⊰⊹§4§lOP§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §4§l•§c⊰⊹§4§lOP§c⊹⊱§4• §6|{prefix}§6| §r{display_name} §c»§a§l{msg}§r§c«
+  VipI:
+    nametag: §f§l•§r§6『§l§cVip§eꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §f§l•§r§6『§l§cVip§eꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+      §c»§e{msg}§c«
+  VipII:
+    nametag: §f§l•§r§6『§l§cVip§eꀤꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §f§l•§r§6『§l§cVip§eꀤꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+      §c»§e{msg}§c«
+  VipIII:
+    nametag: §f§l•§r§6『§l§cVip§eꀤꀤꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §f§l•§r§6『§l§cVip§eꀤꀤꀤ§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+      §c»§e{msg}§c«
+  VipIV:
+    nametag: §f§l•§r§6『§l§cVip§eꀤV§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §f§l•§r§6『§l§cVip§eꀤV§r§6』§l§f• §6|{prefix}§6| §r{display_name}
+      §c»§e{msg}§c«
+  Master:
+    nametag: §l§4•§c⊰⊹§cMa§bst§aer§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §l§4•§c⊰⊹§cMa§bst§aer§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+      §b»§c§l{msg}§r§b«
+  RichKid:
+    nametag: §l§4•§c⊰⊹§aRich§bkid§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §l§4•§c⊰⊹§aRich§bkid§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+      §b»§d{msg}§b«
+  AngelKid:
+    nametag: §l§4•§c⊰⊹§dᴀɴԍᴇʟ§6κιᴅ§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+    chat: §f{police_tag}§c§b{clan_tag} §l§4•§c⊰⊹§dᴀɴԍᴇʟ§6κιᴅ§c⊹⊱§4• §6|{prefix}§6| §r{display_name}
+      §6»§l§c{msg}§r§6«
+...

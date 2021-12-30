@@ -1,0 +1,14 @@
+name: Eff
+main: Eff1\AmGM1\Main
+version: 2.0
+author: AmGM
+api: [2.0.0, 3.0.0]
+description: Effect FCA
+commands:
+  kiteffect:
+    description: Bật Kit Effect
+    permission: kiteffect.vip
+permissions:
+  kiteffect.vip:
+    default: op
+    description: Cho Phép Người Chơi Bật Kit Effect

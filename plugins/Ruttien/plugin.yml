@@ -1,0 +1,35 @@
+---
+name: BankNotes
+main: AndreasHGK\BankNotes\BankNotes
+version: 2.0.3
+api:
+- 3.7.0
+load: POSTWORLD
+author: AndreasHGK
+description: A plugin that makes money into an item to trade with!
+depend:
+- EconomyAPI
+commands:
+  ruttien:
+    description: §e Hệ Thống Rút Xu Ra Tiền Giấy
+    usage: /ruttien {value} [count]
+    permission: banknotes.get
+    aliases:
+permissions:
+  banknotes:
+    default: false
+    description: bankNotes root permission
+    children:
+      banknotes.get:
+        default: true
+        description: allow players to withdraw banknotes
+      banknotes.deposit:
+        default: true
+        description: allow players to deposit banknotes
+      banknotes.command:
+        default: false
+        description: plugin commands like /banknotes check
+      banknotes.command.admin:
+        default: false
+        description: admin commands like /banknotes admin reload,validate,devalidate
+...
